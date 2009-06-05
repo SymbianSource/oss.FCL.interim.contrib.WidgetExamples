@@ -1,0 +1,188 @@
+iframe#widgetIframeWindow {
+	height: 300px;
+	z-index: 1;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 70px;
+	font-family: "Nokia Sans", Arial, Verdana;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#WrapperDiv {
+	width: 100%;
+	min-height: 700px;
+	overflow: hidden;
+}
+
+div#navigation {
+	background-image: url(../images/top-navigation-bg.png);
+	height: 52px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+div#navigation strong{
+	color: #ffffff;	
+}
+#device {
+	margin-right: auto;
+	margin-left: auto;
+	width: 10px;
+}
+#DisplayOrientation {
+	height: 34px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	background-image: url(../images/display-orientation.png);
+	background-repeat: no-repeat;
+	overflow:hidden;
+	background-color:#FFFFFF;
+}
+
+
+#DisplayOrientation.portrait {
+	background-position: 0px 0px;
+}
+
+#DisplayOrientation.landscape {
+	background-position: 0px -45px;
+}
+
+div#iframePreviewWindow {
+	background-color: #FFFFFF;
+	height: 320px;
+	width: 240px;
+}
+
+div#display {
+	background-image: url(../images/device-right.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+div#displayLeft {
+	background-image: url(../images/device-left.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+}
+
+iframe{
+	overflow:hidden;
+}
+#DeviceSettings {
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	font-size: 12px;
+	background-color: #ffffff;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 10px;
+	display: block;
+	overflow: hidden;
+	color: #999999;
+	opacity: 0.9;
+	height: 100%;
+	background-image: url(../images/toolbar-bg-shadow.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+div#pullDown {
+	height: 50px;
+	width: 69px;
+	background-repeat: no-repeat;
+	margin-left: -61px;
+	position: absolute;
+	z-index: 1005;
+}
+div#pullDown.down {
+	background-image: url(../images/new-pull-down-btn.png);
+	background-position: 0px -50px;
+}
+div#pullDown.up {
+	background-image: url(../images/new-pull-down-btn.png);
+	background-position: 0px 0px;
+}
+
+#DeviceSettings strong {
+	color: #000000;
+}
+
+#Toolbar {
+	position: fixed;
+	right: 0px;
+	width: 320px;
+	top: 0;
+	height: 100%;
+}
+#pullDown {
+	margin-top: 10px;
+}
+
+
+#save {
+	background-image: url(../images/select-device-tab.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #225311;
+	border-right-color: #3C931E;
+	border-bottom-color: #3C931E;
+	border-left-color: #225311;
+}
+
+#DeviceSettings p {
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+select#deviceResolution {
+	margin-left: 15px;
+	font-size: 13px;
+	width: 200px;
+	border: 1px solid #999999;
+	height: 90px;
+	margin-top: 10px;
+}
+#deviceResolution option {
+	padding: 3px;
+	font-family: "Nokia Sans", "Nokia Sans SemiBold";
+
+}
+#DeviceSettings img {
+	margin-top: 8px;
+}
+label {
+	padding-top: 8px;
+	font-weight: bold;
+	color: #000000;
+}
+#DeviceSettings input {
+	margin-top: 5px;
+}

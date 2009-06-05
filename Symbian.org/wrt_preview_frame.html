@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nokia WRT Preview</title>
+<link href="preview/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="preview/script/device.js"></script>
+<script language="JavaScript" src="preview/script/build.js"></script>
+<link href="preview/css/menu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="Toolbar">
+  <div id="DeviceSettings">
+    <table cellpadding="0" cellspacing="0">
+      <tr valign="middle">
+        <td width="230" align="left" valign="top"><img src="preview/images/select-device-text.png" alt="Select Device" width="110" height="18" hspace="15" /><br />
+        <select name="deviceResolution" size="5" id="deviceResolution">
+                          </select></td>
+      <td width="87" align="center"><img src="preview/images/device/5320_main.jpg" alt="Device" name="ModelImage" width="57" height="150" id="ModelImage" /></td>
+      </tr><tr>
+	  <td colspan="2">    <p>Model: <br />
+        <strong id="ModelName">Nokia 5320 XpressMusic</strong></p>
+    <p>Resolution: <br />
+      <strong id="ModelResolution">240 x 320 pixels</strong></p>    </td>
+      </tr><tr>
+	  <td colspan="2"><p>Developer Platform: <br />
+            <strong id="ModelPlatform">S60 3rd Edition, Feature Pack 2</strong></p>
+        <p>Display Orientation:<br />
+            <label>
+            <input name="DisplayOrientation" type="radio" id="DisplayOrientation_portrait" value="portrait" checked="checked"/>
+              Portrait</label>
+            <label>
+            <input type="radio" name="DisplayOrientation" value="landscape" id="DisplayOrientation_landscape" />
+              Landscape<br />
+            </label>
+        </p></td>
+    </tr>
+  </table>
+</div>
+  <div class="down" id="pullDown"></div>
+  </div>
+<div id="WrapperDiv">
+<div id="device">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+     <div id="display">
+    	<div id="displayLeft">
+        	<div id="iframePreviewWindow">
+        		<iframe src="wrt_preview_main.html" frameborder="no" width="100%" id="widgetIframeWindow"></iframe>
+                <div id="menuPane">
+                	<div id="menuItemsPane">
+                    </div>
+                	<div id="softKeysPane">
+                    	<table width="100%" border="0" cellspacing="2" cellpadding="2">
+                          <tr>
+                            <td><span id="leftSoftKey">Options</span></td>
+                            <td align="right"><span id="rightSoftKey">Cancel</span></td>
+                          </tr>
+                      </table>
+                    </div>
+                </div>
+        	</div>
+        </div>
+  	</div>
+</td>
+  </tr>
+  <tr>
+    <td>
+    	<div id="softKeys">
+    	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="46"><a id="leftSoftKeyImg"><img src="preview/images/device-left-softkey.png" width="103" height="46" border="0" /></a></td>
+              <td background="preview/images/device-bottom.png">&nbsp;</td>
+              <td width="46"><a id="rightSoftKeyImg"><img src="preview/images/device-right-softkey.png" width="103" height="46" border="0" /></a></td>
+            </tr>
+          </table>
+    	</div>
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+</body>
+</html>
