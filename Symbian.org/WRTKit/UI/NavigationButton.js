@@ -1,14 +1,14 @@
 /*
-© Copyright 2008 Nokia Corporation. All rights reserved.
+ï¿½ Copyright 2008 Nokia Corporation. All rights reserved.
 
 IMPORTANT:  The Nokia software ("WRTKit and Example Widget files") is supplied to you by Nokia
-Corporation (“Nokia”) in consideration of your agreement to the following terms. Your use, installation
+Corporation (ï¿½Nokiaï¿½) in consideration of your agreement to the following terms. Your use, installation
 and/or redistribution of the WRTKit and Example Widget files constitutes acceptance of these terms. If
 you do not agree with these terms, please do not use, install, or redistribute the WRTKit and Example
 Widget files.
 
 In consideration of your agreement to abide by the following terms, and subject to these terms, Nokia
-grants you a personal, non-exclusive license, under Nokia’s copyrights in the WRTKit and Example
+grants you a personal, non-exclusive license, under Nokiaï¿½s copyrights in the WRTKit and Example
 Widget files, to use, reproduce, and redistribute the WRTKit and Example files, in text form (for HTML,
 CSS, or JavaScript files) or binary form (for associated images), for the sole purpose of creating S60
 Widgets.

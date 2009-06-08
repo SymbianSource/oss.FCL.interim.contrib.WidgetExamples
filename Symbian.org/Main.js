@@ -32,7 +32,7 @@ var forumPassword = null;
 
 // Feed name, URL etc for forums
 var forumFeedName = "Symbian.org Forums";
-var forumFeedURL = symbianOrgBaseUrl+ "/forum/external.php?type=rss2"; //&fulldesc=1&lastpost=1
+var forumFeedURL = symbianOrgBaseUrl+ "/forum/external2.php?type=rss2"; //&fulldesc=1&lastpost=1
 var forumsForumSpecQuery = "&forumid=";
 var forumFeedUpdateFrequency = -1;
 
@@ -46,7 +46,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc3";
+var myversion = "1.0rc5";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";
@@ -75,6 +75,8 @@ var MENU_ITEM_SETTINGS = 0;
 var MENU_ITEM_REFRESH = 1;
 var MENU_ITEM_ABOUT = 2;
 var MENU_ITEM_CHECK_UPDATE = 3;
+var MENU_ITEM_LARGER_FONT = 4;
+var MENU_ITEM_SMALLER_FONT = 5;
 
 // Flag indicating weather the web site login has been initiated
 var loginInitiated = false;
@@ -93,6 +95,9 @@ var aboutText = "<strong>Symbian.org "+myversion+"</strong><br>"
 				+ "Credits: Ivan Litovski, Ryan Grentz, James Mentz";
 
 
+var currentFontSize = 14;
+
+
 // Called from the onload event handler to initialize the widget.
 function init() {
 	
@@ -102,18 +107,24 @@ function init() {
         widget.setNavigationEnabled(false);
         window.menu.showSoftkeys();
         // create menu
-        var settingsMenuItem = new MenuItem("Settings", MENU_ITEM_SETTINGS);
-        settingsMenuItem.onSelect = menuItemSelected;
-        menu.append(settingsMenuItem);
         var refreshMenuItem = new MenuItem("Refresh", MENU_ITEM_REFRESH);
         refreshMenuItem.onSelect = menuItemSelected;
         menu.append(refreshMenuItem);
-		var aboutMenuItem = new MenuItem("About", MENU_ITEM_ABOUT);
-		aboutMenuItem.onSelect = menuItemSelected;
-		menu.append(aboutMenuItem);
+        var settingsMenuItem = new MenuItem("Settings", MENU_ITEM_SETTINGS);
+        settingsMenuItem.onSelect = menuItemSelected;
+        menu.append(settingsMenuItem);
 		var updateMenuItem = new MenuItem("Check for updates", MENU_ITEM_CHECK_UPDATE);
 		updateMenuItem.onSelect = menuItemSelected;
 		menu.append(updateMenuItem);
+		var largerFontMenuItem = new MenuItem("Larger font", MENU_ITEM_LARGER_FONT);
+		largerFontMenuItem.onSelect = menuItemSelected;
+		menu.append(largerFontMenuItem);
+		var smallerFontMenuItem = new MenuItem("Smaller font", MENU_ITEM_SMALLER_FONT);
+		smallerFontMenuItem.onSelect = menuItemSelected;
+		menu.append(smallerFontMenuItem);
+		var aboutMenuItem = new MenuItem("About", MENU_ITEM_ABOUT);
+		aboutMenuItem.onSelect = menuItemSelected;
+		menu.append(aboutMenuItem);
     }
 
     // load prefs 
@@ -218,6 +229,7 @@ function init() {
 	about.addControl(aboutLabel);
 
 	home.show();
+	setDefaultFontSizeForScreenSize();
 	login(null);	
 }
 
@@ -236,6 +248,12 @@ function menuItemSelected(id) {
             break;
         case MENU_ITEM_REFRESH:
             currentView.update(true);
+            break;
+        case MENU_ITEM_LARGER_FONT:
+            increaseFontSize();
+            break;
+        case MENU_ITEM_SMALLER_FONT:
+            decreaseFontSize();
             break;
         case MENU_ITEM_CHECK_UPDATE:
             checkForUpdates();
@@ -328,6 +346,7 @@ function checkForUpdatesStage2() {
 				// ok, we have the update
 				uiManager.hideNotification();
 				openURL(downloadUrl);
+				setTimeout(function () {window.close();}, 1000);
 			} else {
 			uiManager.showNotification(3000, "info", "Update cancelled.");
 			}
@@ -341,8 +360,52 @@ function createCaption(caption) {
 	if (caption.length > 30) {
 		caption = caption.substring(0, 30) + "...";
 	}
-	return  "<table border=0>"
-		+ "<tr><td><img src=titlebar.png style=\"{vertical-align:middle}\" > </td></td><td>" 
-		+ "<p class=ListViewCaptionText>"+ caption +"</p>"
-		+ "</td></tr></table>";
+	return  "<table border=0><tr><td style=\"{vertical-align:middle}\">"
+		+ "<img src=titlebar.png style=\"{vertical-align:middle}\" >"
+		+ "</td><td style=\"{vertical-align:middle}\"> " 
+		+ "<p class=ListViewCaptionText>" + caption +"</p></td></tr></table>";
+}
+
+function setDefaultFontSizeForScreenSize(){
+	// first check if there is a preference present
+    if (window.widget) {
+		var saved = widget.preferenceForKey("fontsize");
+		if ( widget.preferenceForKey("fontsize") ) {
+			setCssBodyFontSize(parseInt(saved));
+		}
+		else {
+			// no preference available, check screen size
+			if (window.screen.width > 400 || window.screen.height > 400) {
+				// hi res screen, use large font
+				setCssBodyFontSize(18);
+			}
+			else {
+				// lo res screen, use small font
+				setCssBodyFontSize(14);
+			}
+		}
+	}
+}
+
+function increaseFontSize(){
+    if (window.widget) {
+		setCssBodyFontSize(currentFontSize + 2);
+	}
+}
+
+function decreaseFontSize(){
+    if (window.widget) {
+		if (currentFontSize > 4) {
+			setCssBodyFontSize(currentFontSize - 2);
+		}
+	}
+}
+
+function setCssBodyFontSize(size) {
+    if (window.widget) {
+		currentFontSize = size;
+		var sizestring = "" + size;
+		document.body.style.fontSize = sizestring + "px";
+		widget.setPreferenceForKey(sizestring, "fontsize");
+	}
 }

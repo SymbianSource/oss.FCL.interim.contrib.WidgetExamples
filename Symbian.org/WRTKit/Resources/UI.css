@@ -43,13 +43,25 @@ EVEN IF NOKIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 /*        Definition of visuals for the WRTKit user interface toolkit         */
 /******************************************************************************/
 
+/* Fix for font size inheritance */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+
 /******************************************************************************/
 /* Document body rules */
 
 body {
     margin: 0px;
     background: url("DocumentBackground.png") repeat;  /* repeat-x fixed; */
-    font: normal 12px Arial, sans-serif;
+    font: normal 5mm Arial, sans-serif;
     color: rgb(0,0,0);
 }
 
@@ -140,7 +152,7 @@ a:hover {
 
 /* Rules for the list view caption text */
 .ListViewCaptionText {
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 7px 0px 0px 11px;
 }

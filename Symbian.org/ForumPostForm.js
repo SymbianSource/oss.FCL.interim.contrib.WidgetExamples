@@ -2,7 +2,7 @@
 // (c)2009 Symbian Foundation
 // ////////////////////////////////////////////////////////////////////////////
 
-
+var allowRetry = true;
 function ForumPostForm(aParentView, forumid) {
 	ListView.prototype.init.call(this, null, null);
 	this.previousView = aParentView;
@@ -26,6 +26,7 @@ function ForumPostForm(aParentView, forumid) {
     // post button
     this.postButton = new FormButton(null, "Submit");
     this.postButton.addEventListener("ActionPerformed", function(){
+		isHideNotifications = false;
 		login( function(){
 			submitNewTopic(
 				self.topicNameTf.getText(), // title
@@ -72,6 +73,7 @@ function ForumReplyForm(aParentView, threadid, postid, parentTitle) {
     // post button
     this.postButton = new FormButton(null, "Submit");
     this.postButton.addEventListener("ActionPerformed", function(){
+		isHideNotifications = false;
 		login(
 		function(){
 			submitNewReply(self.topicNameTf.getText(), // title
@@ -117,6 +119,7 @@ var reply = false;
 // Initiates the submission process by requesting the form
 function submitNewTopic(title, content, forumid, callback){
 	uiManager.showNotification(-1, "wait", "Submitting...", -1);
+	isHideNotifications = false;
 
 	// Dealing with vBulletin nastiness...
 	
@@ -146,6 +149,7 @@ function submitNewTopic(title, content, forumid, callback){
 // Initiates the submission process by requesting the form
 function submitNewReply(title, content, threadid, postid, callback){
 	uiManager.showNotification(-1, "wait", "Submitting...", -1);
+	isHideNotifications = false;
 	
 	// Dealing with vBulletin nastiness...
 	
@@ -181,6 +185,7 @@ var forumPostHarvestString_securitytoken = "name=\"securitytoken\" value=\"";
 // Form has been received, extract important info
 function submitFormReady(){
 	uiManager.showNotification(-1, "wait", "Submitting...", -1);
+	isHideNotifications = false;
     if (submitUrlHttpReq.readyState == 4) {
         // attempt to get response status
         var responseStatus = null;
@@ -204,22 +209,30 @@ function submitFormReady(){
 			forumPostSecurityToken = extractFormField(content, forumPostHarvestString_securitytoken);
 			
 			if (forumPostSecurityToken == null || forumPostSecurityToken.length < 5) {
-			    // workaround for a vBulletin bug, restart the process...
-				login( function(){
-					if (reply) {
-						submitNewReply(submitTitle, // title
-						 submitContent, // message
-						 submitThreadId, // threadid
-						 submitPostId, // threadid
-						 submitCallback);
-					}
-					else {
-						submitNewTopic(submitTitle, // title
+				if (!allowRetry) {
+					uiManager.showNotification(3000, "warning", "Failed, please try again...");
+				}
+				else {
+				    // workaround for a vBulletin bug, restart the process...
+					isHideNotifications = true;
+					login( function(){
+						if (reply) {
+							submitNewReply(submitTitle, // title
 							 submitContent, // message
-							 submitForumId, // forumid
+							 submitThreadId, // threadid
+							 submitPostId, // threadid
 							 submitCallback);
-					}
-				});
+						}
+						else {
+							submitNewTopic(submitTitle, // title
+								 submitContent, // message
+								 submitForumId, // forumid
+								 submitCallback);
+						}
+					});
+					// avoid loop
+					allowRetry = false;
+				}
 			} else {
 				doSubmitPost(submitTitle, submitContent, submitForumId, submitCallback, forumPostSecurityToken, forumPostHash, forumPostStartTime, forumPostLoggedInUser);
 			}
@@ -231,6 +244,7 @@ function submitFormReady(){
 function doSubmitPost(title, message, forumid, callback, 
 			forumPostSecurityToken, forumPostHash, forumPostStartTime, forumPostLoggedInUser){
 	uiManager.showNotification(-1, "wait", "Submitting...", -1);
+	isHideNotifications = false;
 	var url = null;
 	var parameters = null;
 	
@@ -293,7 +307,7 @@ function submitComplete(){
 // being able to tell weather a login has been successfull, or if
 // we received login prompt instead of XML at any point.
 function isLoginPrompt (text) {
-	return text.indexOf("form name=\"frmLogin\"") != -1;
+	return text.indexOf("<title>Sign in</title>") != -1;
 }
 
 // Stores the current view, then shows the settings dialog
