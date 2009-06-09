@@ -24,16 +24,8 @@ FeedUpdateBroker.prototype.doFetchFeed = function(){
     var self = this;
     this.httpReq.onreadystatechange = function() { self.readyStateChanged(); };
 
-	var fullURL = this.feedAddress;
-    if (fullURL.indexOf("?") == -1) {
-        fullURL += "?";
-    } else {
-        fullURL += "&";
-    }
-    fullURL += "nocache=" + (new Date().getTime());
-
     // initiate the request
-    this.httpReq.open("GET", fullURL, true);
+    this.httpReq.open("GET", nocache(this.feedAddress), true);
     this.httpReq.send(null);
 }
 

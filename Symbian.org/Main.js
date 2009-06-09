@@ -46,7 +46,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc5";
+var myversion = "1.0rc6";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";
@@ -319,7 +319,7 @@ function checkForUpdates() {
 	uiManager.showNotification(-1, "wait", "Checking for updates...", -1);
 	updatePageAjax = new Ajax();
 	updatePageAjax.onreadystatechange = checkForUpdatesStage2;
-	updatePageAjax.open('GET', versionWikiPageUrl, true);
+	updatePageAjax.open('GET', nocache(versionWikiPageUrl), true);
 	updatePageAjax.send(null);	
 }
 
@@ -345,7 +345,7 @@ function checkForUpdatesStage2() {
 			if (answer) {
 				// ok, we have the update
 				uiManager.hideNotification();
-				openURL(downloadUrl);
+				openURL(nocache(downloadUrl));
 				setTimeout(function () {window.close();}, 1000);
 			} else {
 			uiManager.showNotification(3000, "info", "Update cancelled.");
@@ -408,4 +408,14 @@ function setCssBodyFontSize(size) {
 		document.body.style.fontSize = sizestring + "px";
 		widget.setPreferenceForKey(sizestring, "fontsize");
 	}
+}
+
+function nocache(url) {
+    if (url.indexOf("?") == -1) {
+        url += "?";
+    } else {
+        url += "&";
+    }
+    url += "nocache=" + (new Date().getTime());
+	return url;
 }

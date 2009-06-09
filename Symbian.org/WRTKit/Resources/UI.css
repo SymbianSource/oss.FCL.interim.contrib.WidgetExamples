@@ -61,7 +61,7 @@ tfoot, thead, tr, th, td {
 body {
     margin: 0px;
     background: url("DocumentBackground.png") repeat;  /* repeat-x fixed; */
-    font: normal 5mm Arial, sans-serif;
+    font: normal 14px Arial, sans-serif;
     color: rgb(0,0,0);
 }
 
