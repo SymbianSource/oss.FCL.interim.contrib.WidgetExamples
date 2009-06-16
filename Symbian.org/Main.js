@@ -1,10 +1,15 @@
 // ////////////////////////////////////////////////////////////////////////////
-// (c)2009 Symbian Foundation
+// Symbian Foundation Example Code
+//
+// This software is in the public domain. No copyright is claimed, and you 
+// may use it for any purpose without license from the Symbian Foundation.
+// No warranty for any purpose is expressed or implied by the authors or
+// the Symbian Foundation. 
 // ////////////////////////////////////////////////////////////////////////////
 
 
 ///////////////////////////////////////////////////////////////////////////////
-// A widget for accessing developer.symbian.org forums
+// A widget for accessing developer.symbian.org 
 
 
 // Reference to the WRTKit user interface manager and main view.
@@ -46,7 +51,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc8";
+var myversion = "1.0rc9";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";

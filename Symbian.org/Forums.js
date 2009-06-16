@@ -1,5 +1,10 @@
 // ////////////////////////////////////////////////////////////////////////////
-// (c)2009 Symbian Foundation
+// Symbian Foundation Example Code
+//
+// This software is in the public domain. No copyright is claimed, and you 
+// may use it for any purpose without license from the Symbian Foundation.
+// No warranty for any purpose is expressed or implied by the authors or
+// the Symbian Foundation. 
 // ////////////////////////////////////////////////////////////////////////////
 
 // Forums
