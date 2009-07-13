@@ -79,6 +79,7 @@ includeScript("WRTKit/UI/FormButton.js");
 includeScript("WRTKit/UI/NavigationButton.js");
 includeScript("WRTKit/UI/TabView.js");
 includeScript("WRTKit/UI/Ajax.js");
+includeScript("WRTKit/UI/ImageLabel.js");
 
 // Includes a script file by writing a script tag.
 function includeScript(src) {

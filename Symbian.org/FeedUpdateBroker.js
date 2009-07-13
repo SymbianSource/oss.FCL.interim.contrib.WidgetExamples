@@ -157,20 +157,18 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
 // Returns the text of a node.
 function getTextOfNode(node) {
     var buf = "";
-    
-    // iterate through all child elements and collect all text to the buffer
-    var child = node.firstChild;
-    while (child != null) {
-        if (child.nodeType == Node.TEXT_NODE || child.nodeType == Node.CDATA_SECTION_NODE) {
-            // append text to buffer
-            if (buf != "") {
-                buf += " ";
-            }
-            buf += escapeLtGt(child.nodeValue);
-        }
-        child = child.nextSibling;
-    }
-    
+	// iterate through all child elements and collect all text to the buffer
+	var child = node.firstChild;
+	while (child != null) {
+		if (child.nodeType == Node.TEXT_NODE || child.nodeType == Node.CDATA_SECTION_NODE) {
+			// append text to buffer
+			if (buf != "") {
+				buf += " ";
+			}
+			buf += escapeLtGt(child.nodeValue);
+		}
+		child = child.nextSibling;
+	}
     // strip all tags from the buffer
     var strippedBuf = "";
     var textStartPos = -1;

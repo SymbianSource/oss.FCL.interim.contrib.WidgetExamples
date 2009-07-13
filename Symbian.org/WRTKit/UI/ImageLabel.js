@@ -20,11 +20,11 @@ function ImageLabel(id, caption, image) {
 // Label inherits from Control.
 ImageLabel.prototype = new Control(UI_NO_INIT_ID);
 
-// Content element for label text.
+// Content element for the ImageLabel
 ImageLabel.prototype.contentElement = null;
 
-// Content element for label text.
-ImageLabel.prototype.image = null;
+// DOM element for image 
+ImageLabel.prototype.imageElement = null;
 
 // Initializer - called from constructor.
 ImageLabel.prototype.init = function(id, caption, image) {
@@ -33,8 +33,6 @@ ImageLabel.prototype.init = function(id, caption, image) {
     // call superclass initializer
     Control.prototype.init.call(this, id, caption);
     
-	this.image = image;
-	
     // create content element
     this.contentElement = document.createElement("div");
     this.controlElement.appendChild(this.contentElement);
@@ -53,17 +51,41 @@ ImageLabel.prototype.isFocusable = function() {
     return false;
 }
 
-// Returns the control text.
+// Returns the button image (URL); null if none.
 ImageLabel.prototype.getImage = function() {
-    return this.contentElement.innerHTML;
+    return (this.imageElement != null) ? this.imageElement.src : null;
 }
 
-// Sets the text for the control.
-ImageLabel.prototype.setText = function(text) {
-    uiLogger.debug("Label.setText(" + text + ")");
-    this.contentElement.innerHTML = (text == null) ? "" : text;
-    this.updateStyleFromState();
+// Sets the button image (URL); null if none.
+ImageLabel.prototype.setImage = function(image) {
+    uiLogger.debug("NavigationButton.setImage(" + image + ")");
+    
+    if (image == null) {
+        // remove image - if any
+        if (this.imageElement != null) {
+            this.contentElement.removeChild(this.imageElement);
+        }
+    } else {
+        // default to not append image element
+        var append = false;
+        
+        // create image element if one doesn't exist
+        if (this.imageElement == null) {
+            this.imageElement = document.createElement("img");
+            this.imageElement.setAttribute("alt", "");
+            append = true;
+        }
+        
+        // set image source URL
+        this.imageElement.src = image;
+        
+        // append the image element to the left cell?
+        if (append) {
+            this.contentElement.appendChild(this.imageElement);
+        }
+    }
 }
+
 
 // Updates the style of the control to reflects the state of the control.
 ImageLabel.prototype.updateStyleFromState = function() {

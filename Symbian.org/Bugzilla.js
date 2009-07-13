@@ -36,7 +36,7 @@ function BugzillaSearchPanel(parent) {
 
 BugzillaSearchPanel.prototype = new ListView(null,null);
 
-
+//http://developer.symbian.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&content=test&field-1-0-0=bug_status&field-1-1-0=product&field-1-2-0=content&product=classicui&query_format=specific&remaction=&type-1-0-0=anyexact&type-1-1-0=anyexact&type-1-2-0=matches&value-1-0-0=UNCONFIRMED%2CNEW%2CASSIGNED&value-1-1-0=classicui&value-1-2-0=test&title=Bug%20List&ctype=atom
 BugzillaSearchPanel.prototype.bugzillaSearchClicked = function() {
 	// create the RssReader for bugzilla
 	var searchString = this.searchTerm.getText();

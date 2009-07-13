@@ -479,17 +479,17 @@ function convertTag(tag, fulltag, tagContent) {
 		}
 		case 'quote': return '<blockquote><i>' + tagContent + '</i></blockquote>';
 		case 'url': {
-			var eqsign = fulltag.indexOf("=");
+			var eqsign = fulltag.indexOf("=");  // onclick=\"openURL('" + item.url + "');
 			if ( eqsign > -1 ) {
-				return '<div class="FeedItemLink"><a href="JavaScript:void(0)" onclick="openURL( ' 
+				return "<div class=\"FeedItemLink\"><a href=\"JavaScript:void(0)\" onclick=\"openURL( '"
 				+ fulltag.substring(eqsign+1)
-				+ '") ><i>'
+				+ "')\" ><i>"
 				+ tagContent
 				+ '</i></a></div>'; 
 			} else {
-				return '<div class="FeedItemLink"><a href="JavaScript:void(0)" onclick="openURL( ' 
+				return "<div class=\"FeedItemLink\"><a href=\"JavaScript:void(0)\" onclick=\"openURL( '"
 				+ tagContent
-				+ '") ><i>'
+				+ "')\" ><i>"
 				+ tagContent
 				+ '</i></a></div>'; 
 			}

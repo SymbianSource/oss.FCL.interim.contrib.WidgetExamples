@@ -96,10 +96,6 @@ View.prototype.resetControlFocusStates = function() {
 // ////////////////////////////////////////////////////////////////////
 // Added functions
 
-// abstract function for setting up menu
-View.prototype.setupMenu = function()  {
-}
-
 // set up soft keys. Default implementation sets right soft
 // key to Back if the previous view is set
 View.prototype.setupSoftKeys = function()  {
