@@ -1,0 +1,410 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:OSCON 2009
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T224138
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8466
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8466
+SUMMARY:PHP: The Good Parts
+DESCRIPTION:Presented by Chris Shiflett (OmniTI), Sean Coates (OmniTI). 
+ PHP has a reputation for being poorly designed and inconsistent. This re
+ putation has been earned through a lifetime of organic growth. Some of t
+ his criticism is deserved, but some parts—The Good Parts—keep us coming 
+ back for more. Join us as we discuss the reasons why PHP powers most of 
+ the Web despite its flaws.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T223557
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7757
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--7757
+SUMMARY:Introduction to JRuby
+DESCRIPTION:Presented by Neal Ford (ThoughtWorks). JRuby is Ruby on the 
+ Java Platform, so it brings the advantages of Ruby to the JVM and the ad
+ vantages of Java to Ruby. This session shows Ruby syntax and lots of int
+ egration techniques with Java, including building Swing-based UI's using
+  Swiby and how to unit test Java code with JRuby.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090310T220530
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7974
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--7974
+SUMMARY:Introduction to Google App Engine
+DESCRIPTION:Presented by Joe Gregorio (Google). Overview of App Engine a
+ nd its major components, including an overview of the APIs the SDK provi
+ des, the underlying technologies App Engine is built on. Tutorial is a h
+ ands on event where we will build multiple applications over three hours
+  exploring many of features and APIs in App Engine.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090608T172449
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8266
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8266
+SUMMARY:Simplifying Database Design
+DESCRIPTION:Presented by Josh Berkus (PostgreSQL Experts, Inc.). In 10 y
+ ears of fixing other people's SQL databases, I've noticed that the less 
+ the original developer knew, the more complex the databases are ... and 
+ the more complex the problems.  Here I offer a refreshing approach for s
+ imple SQL database design.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090310T213951
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7553
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--7553
+SUMMARY:Mastering Perl
+DESCRIPTION:Presented by brian d foy (Stonehenge Consulting Services). G
+ o beyond the syntax and idioms of Perl to manage your code base so it do
+ esn't manage you. Show your Perl code who is in charge through benchmark
+ ing and profiling, configuration, logging, and fixing third party module
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T223849
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8158
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8158
+SUMMARY:Finding the Swan in Squeak's Ugly Duckling
+DESCRIPTION:Presented by Randal L. Schwartz (Stonehenge Consulting Servi
+ ces, Inc.). Squeak Smalltalk is wholly unlike any other open source prog
+ ramming tool you've worked with - and mostly in good ways. Unfortunately
+ , it's the bad ways that make the first impression. This hands-on tutori
+ al will help you get past the unfamiliar and the unwieldy so that you ca
+ n take advantage of the elegant and productive environment that lies und
+ erneath.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T223842
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8061
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8061
+SUMMARY:Perl 6: Why? What? How?
+DESCRIPTION:Presented by Damian Conway (Thoughtstream). This half-day tu
+ torial provides a comprehensive and practical introduction to the new la
+ nguage, specifically designed to get current Perl 5 programmers up to sp
+ eed on the new and powerful features of Perl 6.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T224126
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8118
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8118
+SUMMARY:Automating Enterprise Workflow with Open Source Tools
+DESCRIPTION:Presented by Jim Brandt (Synacor, Inc.). In difficult financ
+ ial times, all businesses are looking to do more with less. Automating r
+ epetitive tasks with computers is one way to do this. This tutorial will
+  discuss how to use open source tools to implement workflow using real-w
+ orld examples.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T120000
+DTSTART;TZID=US/Pacific:20090720T083000
+DTSTAMP:20090629T223543
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8575
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-08:30--8575
+SUMMARY:The Open, Social Web Workshop
+DESCRIPTION:Presented by Chris Messina (OpenID Foundation), David Record
+ on (Six Apart), Joseph Smarr (Plaxo). As evidenced by Barack Obama’s suc
+ cessful presidential campaign, we have clearly entered the age of the so
+ cial web. This developer-oriented workshop will emphasize the use and ap
+ plication of free, open building blocks for enabling social networking f
+ eatures on your site or service, and provide illuminating insights from 
+ some of the key figures creating these technologies.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090629T225624
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8125
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8125
+SUMMARY:Introduction to Web Application Development Using Smalltalk Seas
+ ide
+DESCRIPTION:Presented by Randal L. Schwartz (Stonehenge Consulting Servi
+ ces, Inc.). An introduction to the Seaside Smalltalk web development fra
+ mework.  Presumes basic knowledge of object-oriented programming using S
+ malltalk GUIs, such as Squeak or VisualWorks. Covers Seaside concepts of
+  components and html templating, including continuations for advanced ca
+ llbacks and some persistence solutions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090629T225110
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7728
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--7728
+SUMMARY:XMPP 101: Building Real-Time Applications with Jabber Technologi
+ es
+DESCRIPTION:Presented by Peter Saint-Andre (Cisco), Jack Moffitt (Collec
+ ta). Jabber/XMPP technologies are the gold standard for real-time messag
+ ing, presence, and collaboration over the Internet. This interactive tut
+ orial provides a fast-paced introduction to XMPP, including many practic
+ al guidelines and "gotchas" that will help you get off to a fast start w
+ ith XMPP-based software projects.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090629T225402
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8035
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8035
+SUMMARY:Internet Programming with Python
+DESCRIPTION:Presented by wesley chun (CyberWeb Consulting). Python is an
+  interpreted, cross-platform, object-oriented programming language that 
+ is popular for a wide range of applications, one of which is Internet pr
+ ogramming. This tutorial introduces current Python programmers to three 
+ distinct areas of Internet programming, each in self-contained one-hour 
+ lectures with a demonstration of code following each lecture topic.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090310T234227
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7953
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--7953
+SUMMARY:Git 101
+DESCRIPTION:Presented by Scott Chacon (GitHub). Git is a new distributed
+  version control system that is fast, flexible, works offline and suppor
+ ts powerful local branching and easy merging that encourages non-linear 
+ workflows and makes developers far more productive and efficient. This t
+ utorial will introduce you to Git, rid you of your SVN sins, and teach y
+ ou how to become more efficient and productive as a programmer.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090711T160918
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8345
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8345
+SUMMARY:Request Tracker Boot Camp
+DESCRIPTION:Presented by Jesse Vincent (Best Practical). Request Tracker
+  (RT) is an enterprise-grade ticketing system. It's designed to help you
+ r organization track what needs to get done and what still needs doing. 
+ From basic customer service to advanced back-office workflows, RT is fle
+ xible enough to keep your processes smooth and effective. This tutorial 
+ will cover deployment and day to day use of RT as well as basic customiz
+ ation.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090311T174338
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8904
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8904
+SUMMARY:Running the Show: Configuration Management with Chef
+DESCRIPTION:Presented by Edd Dumbill (O'Reilly Media, Inc. ). Few applic
+ ations are architecturally simple. As soon as you grow, you find yoursel
+ f using multiple subsystems and machines to scale, creating new headache
+ s in configuration management. Help is at hand! This tutorial introduces
+  Chef, a modern Ruby-based open source approach to systems integration. 
+ Chef lets you manage your servers by writing code, not running commands.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090711T160907
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8892
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8892
+SUMMARY:What's new in Perl v5.10?
+DESCRIPTION:Presented by Tom Christiansen (TCPC). Perl5 is alive and wel
+ l, and this tutorial outlines the many significant changes appearing in 
+ the 5.10.0 release and beyond, especially in regular expressions and mod
+ ules.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090629T225426
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8314
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8314
+SUMMARY:Use Open Source Tools to Program iPhone Games on Linux and Windo
+ ws Without the iPhone SDK
+DESCRIPTION:Presented by PJ Cabrera (Freelance trouble-maker). In this t
+ utorial, learn about the use of open source tools to help develop native
+  applications for the iPhone platform on Windows and Linux, and learn ab
+ out the source code of a basic iPhone application in Objective-C. Explor
+ e open source libraries that help accelerate the creation of native iPho
+ ne games and apps without having to use the iPhone SDK directly.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090310T213152
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8117
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8117
+SUMMARY:Scaling Your Web MySQL Application (mostly PHP/MySQL)
+DESCRIPTION:Presented by Duleepa Wijayawardhana (MySQL). Scaling is a pe
+ rennial problem. One day you are happily serving 10,000 users and sudden
+ ly that pesky CNN picks you on you and you have to deal with a million u
+ sers. It isn't all about putting the latest hardware, more disk or more 
+ RAM. Scaling is a subtle art of discovering pain points in the applicati
+ on and using various Open Source software and technologies to get you to
+  where you want.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T170000
+DTSTART;TZID=US/Pacific:20090720T133000
+DTSTAMP:20090629T225018
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8076
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-13:30--8076
+SUMMARY:Distributed Applications with CouchDB
+DESCRIPTION:Presented by J Chris Anderson (couch.io). Apache CouchDB can
+  serve complete web apps, without a middle-tier application server. Beca
+ use these apps can be deployed to any running CouchDB node (including us
+ er's local machines), they present potential for end-user innovation, bu
+ t because of view source but also through peer based replication. We'll 
+ learn to use the CouchApp JavaScript and HTML framework to build sharabl
+ e applications.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090706T173333
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10160
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10160
+SUMMARY:Private Clouds - Why They Matter
+DESCRIPTION:Clouds of all types have been discussed and new terms seem t
+ o pop up everyday. This BoF will focus in on one aspect of cloud computi
+ ng, namely, private clouds. Enterprises have vast data centers comprisin
+ g of systems of all types. Cloud computing can transform these datacente
+ rs into a flexible, efficient cloud allowing for endless possibility.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090714T091107
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10216
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10216
+SUMMARY:Open Source to the Rescue  of  Mobile App and Mobile Web Fragmen
+ tation
+DESCRIPTION:Mobile app and Mobile web development is still in it's infan
+ cy when talking about development practices, tools and platform converge
+ nce. Several Open Source projects and standards are emerging in this fie
+ ld. During this BoF session some of the tools and approaches will be dis
+ cussed and experiences will be shared. Special focus will be put on tool
+ s that overcome device fragmentation!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090623T151234
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10217
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10217
+SUMMARY:Writing Open Source
+DESCRIPTION:Whether you're an aspiring technical author, or a raging Doc
+ Book fiend, you've probably noticed that a lot open source documentation
+  needs help. Want to help (or need help)? Writing Open Source is a new c
+ ross-project initiative dedicated to making docs suck less.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090715T172147
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10447
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10447
+SUMMARY:collectd and rrdtool, Building Blocks for AMP Monitoring and Vis
+ ualization
+DESCRIPTION:This session intends to showcase the power of collectd and r
+ rdtool to build a monitoring solution for the OpenSolaris Web Stack (an 
+ AMP stack). collectd, a system statistics collection daemon, helps you t
+ o collect and store monitoring statistics while rrdtool, a data logging 
+ and graphing system for time series data, helps you to generate nice gra
+ phs.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090716T142818
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10347
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10347
+SUMMARY:Hacking the Open GlassFish Web Stack for Laconica - The Open Mic
+ roblogging Tool
+DESCRIPTION:This Birds of a Feather Session will show how to hack the Gl
+ assFish Web Stack to add support for Laconica.  At the end of this sessi
+ on you will be able to download, modify, and compile the Open Web Stack 
+ to support the Laconica Microblogging Tool.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090707T205237
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10370
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10370
+SUMMARY:Using Open Source to Speed Multi-source Development - Issues and
+  Benefits
+DESCRIPTION:Open source enables a re-alignment of development economics 
+  - enabling faster, more cost-effective product development and time-to-
+ market. Development organizations must gear up for the challenges of usi
+ ng open source. Attendees will discuss new technologies and approaches t
+ hat address the unique challenges that arise when development organizati
+ ons use open source components “at scale.”
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T210000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090710T165405
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10406
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10406
+SUMMARY:Crossbow Network Virtualization - Convergence of Compute and Net
+ work Services
+DESCRIPTION:There are a lot of solutions in the market for virtualizing 
+ compute services, but what about the network?  Crossbow introduces a new
+  highly performant and scalable networking stack into OpenSolaris with u
+ nique network virtualization and resource control features. This new inf
+ rastructure allows you to combine networking and compute services withou
+ t trading off security or performance.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090720T200000
+DTSTART;TZID=US/Pacific:20090720T190000
+DTSTAMP:20090710T224854
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10413
+UID:http://conferences.oreilly.com/oscon--s2009-07-20-19:00--10413
+SUMMARY:Drill Down PHP Performance on Multicore Systems. Where Does It S
+ tand?
+DESCRIPTION:PHP, in spite of most popular web scripting language, doesn'
+ t perform the best particularly on modern multicore systems. In a standa
+ rd ecommerce workload, PHP perform less than 50% compare to jsp.  We hav
+ e been able to improve the PHP performance up to 60% by optimizing the P
+ HP engine running in a multithreaded environment. In the session we will
+  review some of these optimizations.
+END:VEVENT

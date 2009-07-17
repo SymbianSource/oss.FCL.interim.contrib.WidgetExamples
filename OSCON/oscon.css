@@ -1,0 +1,33 @@
+/* Feed item date */
+.FeedItemDate {
+    font-style: italic;
+}
+
+/* Feed item text */
+.FeedItemDescription {
+    padding: 4px 0px;
+}
+
+/* Feed item links */
+.FeedItemLink {
+    font-weight: bold;
+}
+
+/* Anchor tags in the context of a feed item link */
+.FeedItemLink a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+
+/* Focused anchor tags */
+.FeedItemLink a:focus {
+    background: rgb(65,131,68);
+    color: rgb(255,255,255);
+}
+
+/* Focused anchor tags */
+.FeedItemLink a:hover {
+    background: rgb(65,100,68);
+    color: rgb(255,255,255);
+}
