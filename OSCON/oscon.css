@@ -1,6 +1,23 @@
+
+/* Fix for font size inheritance */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+ 
+body {
+	font-size: large;
+}
+
 /* Feed item date */
 .FeedItemDate {
     font-style: italic;
+	font-size: medium;
 }
 
 /* Feed item text */
