@@ -1,4 +1,3 @@
-
 /* Fix for font size inheritance */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl,
@@ -23,6 +22,7 @@ body {
 /* Feed item text */
 .FeedItemDescription {
     padding: 4px 0px;
+	font-size: medium;
 }
 
 /* Feed item links */
