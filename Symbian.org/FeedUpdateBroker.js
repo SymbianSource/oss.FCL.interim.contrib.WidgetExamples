@@ -4,7 +4,6 @@
 
 // Constructor.
 function FeedUpdateBroker() {
-	this.escapeLtGt=true;
     this.httpReq = null;
     this.feedAddress = null;
     this.callback = null;
@@ -96,7 +95,7 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
                     if (node.nodeName == "pubDate" ||
                             node.nodeName == "lastBuildDate" ||
                             node.nodeName == "dc:date") {
-                        lastModified = getTextOfNode(node, this.escapeLtGt);
+                        lastModified = getTextOfNode(node);
                         break;
                     }
                 }
@@ -126,18 +125,18 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
                 if (node.nodeType == Node.ELEMENT_NODE) {
                     if (node.nodeName == "title") {
                         // item title
-                        title = getTextOfNode(node, this.escapeLtGt);
+                        title = getTextOfNode(node);
                     } else if (node.nodeName == "pubDate" || node.nodeName == "dc:date") {
                         // item publishing date
-                        date = getTextOfNode(node, this.escapeLtGt);
+                        date = getTextOfNode(node);
                     } else if (node.nodeName == "description" && !this.ignoreContent ) {
                         // item description
-                        description = getTextOfNode(node, this.escapeLtGt);
+                        description = getTextOfNode(node);
                     } else if (node.nodeName == "link") {
                         // link URL
-                        url = getTextOfNode(node, this.escapeLtGt);
+                        url = getTextOfNode(node);
                     } else if (node.nodeName == "dc:creator" ) {
-						author = getTextOfNode(node, this.escapeLtGt);
+						author = getTextOfNode(node);
 					}
                 }
                 node = node.nextSibling;
@@ -156,7 +155,7 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
 }
 
 // Returns the text of a node.
-function getTextOfNode(node, escapeLtGt) {
+function getTextOfNode(node) {
     var buf = "";
 	// iterate through all child elements and collect all text to the buffer
 	var child = node.firstChild;
@@ -167,11 +166,7 @@ function getTextOfNode(node, escapeLtGt) {
 				buf += " ";
 			}
 			buf += child.textContent;
-//			if (escapeLtGt) {
 //				buf += doEscapeLtGt(child.nodeValue);
-//			} else {
-//				buf += child.nodeValue;
-//			}
 		}
 		child = child.nextSibling;
 	}

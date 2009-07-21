@@ -172,7 +172,6 @@ function init() {
 	
 	// create blog screen
 	blog = new RssReader(blogFeedName, blogFeedUrl, null, home, null);
-	blog.escapeLtGt = false;
 	
 	// create wiki screen
 	wiki = new RssReader(wikiFeedName, wikiFeedUrl, new ButtonFeedPresenter(null), home, null);
