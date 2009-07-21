@@ -1,0 +1,343 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:OSCON 2009
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090711T160325
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8262
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--8262
+SUMMARY:How to Write Your Own Eclipse Plug-ins
+DESCRIPTION:Presented by Beth Tibbitts (IBM ). Eclipse is an open source
+  IDE that has available extensions for a variety of languages and tools.
+   How are these extensions created? This tutorial will cover how to inst
+ all eclipse extensions ("plug-ins"), how to write your own including usi
+ ng the built-in wizards, how to write help for your plug-ins, and how to
+  publish/package them so that others can easily download and use your pl
+ ug-ins.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090311T161032
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7844
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--7844
+SUMMARY:Spatializing your Data with PostGIS, GeoDjango & OpenLayers
+DESCRIPTION:Presented by Chander Ganesan (Open Technology Group, Inc). T
+ he GeoDjango project provides a set of extensions to the python Django f
+ ramework that allows for the easy and rapid development of spatially ena
+ bled applications.  Using GeoDjango's model-driven design methods, PostG
+ IS's spatial database extensions to PostgreSQL, and OpenLayers, we will 
+ explain and demonstrate how to build powerful spatially enabled applicat
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090629T230556
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8062
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--8062
+SUMMARY:7 Principles of Better API Design
+DESCRIPTION:Presented by Damian Conway (Thoughtstream). This course pres
+ ents a minimalist approach to interface design known as "S.A.T." Develop
+ ed by Damian Conway over the past decade, this design philosophy can pro
+ duce smaller, better focused, more usable module APIs.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090629T230304
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7519
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--7519
+SUMMARY:Linux System and Network Performance Monitoring
+DESCRIPTION:Presented by Darren Hoch (StrongMail Systems). The Linux Sys
+ tem and Network Performance Course teaches systems administrators practi
+ cal methodologies for monitoring systems using standard system tools. Th
+ e course breaks performance into 4 functional components: CPU, Memory, I
+ /O, and Network.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090310T224022
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7734
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--7734
+SUMMARY:Moose: A Complete (Meta-)OO System for Perl
+DESCRIPTION:Presented by Yuval Kogman (Infinity Interactive). Moose is a
+  complete OO system for Perl that provides a declarative sugar layer alo
+ ng with a complete meta-model for introspection and extension.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090711T160428
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7384
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--7384
+SUMMARY:PHP Code Audit
+DESCRIPTION:Presented by Philippe Gamache (Parler Haut, Interagir Librem
+ ent), Damien Seguy (Alterway Consulting). In this laboratory, we will ca
+ rry out a safety audit of an Open Source web application. We will work o
+ n a real application. The laboratory will end with the handing over of t
+ he report to the authors of the application so they can have an outside 
+ view on the safety of the application.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090711T160317
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8020
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--8020
+SUMMARY:The PhoneGap Project: Designing for the Device Neutral Mobile We
+ b
+DESCRIPTION:Presented by Brian LeRoux (Nitobi Inc.), Rob Ellis (Nitobi I
+ nc.), Brock Whiten (Nitobi Inc.). Created at iPhoneDevCamp 2008, PhoneGa
+ p is an open source initiative for bringing native device capabilities t
+ o mobile browsers. Use PhoneGap to author apps in HTML and JavaScript an
+ d still take advantage of native mobile device capabilities like geo loc
+ ation, camera, vibration and sound. Learn to build apps for iPhone, Andr
+ oid, Nokia S60 and Blackberry and how to contribute back to the project.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090408T163529
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7554
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--7554
+SUMMARY:Practical Erlang Programming Tutorial
+DESCRIPTION:Presented by Francesco Cesarini (Erlang Training and Consult
+ ing Ltd). Practical Erlang Programming covers the basic, sequential and 
+ concurrent aspects of the Erlang programming language. You will learn th
+ e basics of how to read, write and structure Erlang programs. The target
+  audience are software developers and engineers with an interest in serv
+ er side applications and massively concurrent systems. The perquisites a
+ re basic programming knowledge.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090711T160410
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8206
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--8206
+SUMMARY:Gearman: Build Your Own Distributed Platform in 3 Hours
+DESCRIPTION:Presented by Eric Day (Sun Microsystems), Brian Aker (Sun Mi
+ crosystems, Inc.). This tutorial will show you how to get started with G
+ earman, the flexible job queuing system used to power websites such as L
+ iveJournal and Digg. We'll cover common architectures, installation, API
+ s, and deployment. A few use cases will be described and built, includin
+ g a Map/Reduce cluster and database-driven URL mining application.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T120000
+DTSTART;TZID=US/Pacific:20090721T083000
+DTSTAMP:20090323T212845
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8210
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-08:30--8210
+SUMMARY:Building Great User Experiences For the Open Web With Dojo
+DESCRIPTION:Presented by Matthew Russell (Zaffra, LLC). Dojo is an indus
+ trial strength JavaScript toolkit that drastically simplifies the effort
+  it takes to develop an application for the open web. This 3 hour tutori
+ al provides an intense introduction to all of the "good parts" of the to
+ olkit and includes a number of demonstrations built in real time (as opp
+ osed to primarily being a lecture) in the spirit of a "labs style" envir
+ onment.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090310T223652
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8893
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8893
+SUMMARY:Open-Source Solutions for Cameras in the Digital Age
+DESCRIPTION:Presented by Tom Christiansen (TCPC). Now that everyone and 
+ their dog has some sort    of a digital camera, what are you supposed to
+     do with it, and how?  What real solutions are    out there that aren
+ 't just for the subfenestrated?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090311T175417
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8178
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8178
+SUMMARY:Total Security In A PostgreSQL Database
+DESCRIPTION:Presented by Robert Bernier (Consultant). Protecting your da
+ ta, by any and all means possible, is no longer an option. Rather, it is
+  mandated by today's security conscious management. This tutorial will d
+ emonstrate a hands on methodology of using the latest encryption and cip
+ her technology available in PostgreSQL. Following best condoned practice
+ s used in the industry today, PostgreSQL can be used to manage your data
+  securely.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090310T214348
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7943
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--7943
+SUMMARY:Scalable Internet Architectures
+DESCRIPTION:Presented by Theo Schlossnagle (OmniTI). Internet traffic sp
+ ikes aren't what they used to be.  It is now evident that even the small
+ est sites can suffer the attention of the global audience.  This present
+ ation dives into techniques to avoid collapse under dire circumstances. 
+  Looking at some real traffic spikes, we'll pinpoint what part of the ar
+ chitecture is crumbling under the load; then, walk though stop-gaps and 
+ complete solutions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090629T231001
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8451
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8451
+SUMMARY:Doing Perl Right
+DESCRIPTION:Presented by Paul Fenwick (Perl Training Australia), Jacinta
+  Richardson (Perl Training Australia). You already know some Perl.  You'
+ ve read a book, written a few scripts, maybe even a module, but are you 
+ sure you're doing it right?  Languagues and techniques evolve over time,
+  and Perl is no exception. This detailed tutorial covers many of the bes
+ t modern and practical techniques in Perl, including Moose, autodie, Dev
+ el::NYTProf, Devel::Cover, PAR, Perl::Critic and more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090629T231146
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7616
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--7616
+SUMMARY:Quality Assurance in PHP Projects
+DESCRIPTION:Presented by Sebastian Bergmann (thePHP.cc). This tutorial i
+ ntroduces the audience to the testing of modern web applications using P
+ HPUnit for testing the backend components and Selenium for end-to-end te
+ sting of the whole application as well as measuring and controlling othe
+ r aspects of software quality throughout a project's lifecycle.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090320T181052
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8327
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8327
+SUMMARY:Becoming an OpenSolaris Power User
+DESCRIPTION:Presented by Nicholas Solter (OpenSolaris / Sun Microsystems
+ ), David Miner (Sun Microsystems). Join the authors of “OpenSolaris Bibl
+ e” for a tutorial in becoming an OpenSolaris power user. Learn about ZFS
+ , DTrace, FMA, SMF, and more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090310T213100
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8238
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8238
+SUMMARY:Just Enough C For Open Source Projects
+DESCRIPTION:Presented by Andy Lester (theworkinggeek.com). For programme
+ rs raised on open source who want to delve into lower-level mechanics of
+  C programming, this tutorial gives a complete overview of what it takes
+  to jump into the innards of your favorite open source projects. From My
+ SQL to Perl 5 to the Linux core, C is the foundation of many of the most
+  widely used open source packages. Learn the language, learn the tools, 
+ and start contributing.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090717T010624
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10152
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--10152
+SUMMARY:Inside Symbian Tips and Tricks Tutorial
+DESCRIPTION:Presented by Lars Kurth (Symbian), Regan Coleman (Xenient). 
+ The Symbian tutorial is the ideal place to gain insight and hands-on exp
+ erience with the Symbian Mobile Platform using Runtime tools including W
+ eb, Adobe Flash Lite, and Python, as well as an introduction to  native 
+ C++ development. The first 60 attendees will receive their very own unlo
+ cked Nokia 5800 device.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090311T013744
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8159
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8159
+SUMMARY:Django in the Real World
+DESCRIPTION:Presented by Jacob Kaplan-Moss (Django). There's plenty of m
+ aterial (documentation, blogs, books) out there that'll help you write a
+  site using Django... but then what? You've still got to test, deploy, m
+ onitor, and tune the site; failure at deployment time means all your bea
+ utiful code is for naught. This tutorial examines how best to cope when 
+ the Real World intrudes on your carefully designed website.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090629T231133
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8225
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8225
+SUMMARY:Learn to use Semantic Technologies using Open Source Tools
+DESCRIPTION:Presented by Jamie Taylor (Metaweb), Toby Segaran (Metaweb),
+  Colin Evans (Metaweb). Semantic Technologies provide a simple, standard
+ ized methodology for representing, combing and sharing data and serve as
+  the foundation for creating communities of open data.  These technologi
+ es are both easy to learn and easy to use. This tutorial will introduce 
+ you to semantic programming using a variety of open source tools and pro
+ gramming techniques that you can use on your projects today.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T170000
+DTSTART;TZID=US/Pacific:20090721T133000
+DTSTAMP:20090310T220642
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8457
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-13:30--8457
+SUMMARY:Using Drupal
+DESCRIPTION:Presented by James Walker (Lullabot), Addison Berry (Lullabo
+ t). Drupal is a highly modular, Open Source Content Management System wi
+ th a wealth of powerful add-on modules. Learn to harness it all and buil
+ d dynamic websites with Drupal from authors of the book, Using Drupal.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T203000
+DTSTART;TZID=US/Pacific:20090721T193000
+DTSTAMP:20090630T234102
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9010
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-19:30--9010
+SUMMARY:Ignite OSCON
+DESCRIPTION:If you had five minutes on stage what would you say? What if
+  you only got 20 slides and they rotated automatically after 15 seconds?
+  Would you pitch a project? Launch a web site? Teach a hack? We’re going
+  to find out when we try our first Ignite event at OSCON. Damian Conway 
+ is scheduled to end OSCON Ignite in style. Want to present at Ignite?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090721T210000
+DTSTART;TZID=US/Pacific:20090721T203000
+DTSTAMP:20090430T234511
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9000
+UID:http://conferences.oreilly.com/oscon--s2009-07-21-20:30--9000
+SUMMARY:Google O'Reilly Open Source Awards
+DESCRIPTION:Winners of the Google O'Reilly Open Source Award will be ann
+ ounced during this fun evening event.
+END:VEVENT

@@ -1,0 +1,1534 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:OSCON 2009
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T091500
+DTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090619T154409
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10173
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:00--10173
+SUMMARY:Standing Out in the Crowd
+DESCRIPTION:Presented by Kirrily Robert (Infotrope). What's it like to b
+ e a woman in an open source project that's 99% men? What's it like to be
+  a woman in a project that's 75%... women? Kirrily Robert, who has worke
+ d on both kinds of projects, will talk about the differences, and what w
+ e can learn from majority-female open source projects.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090625T233546
+LOCATION:Meeting Room C1/C4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9008
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:00--9008
+SUMMARY:OSCamp 2009
+DESCRIPTION:OSCamp 2009, a community organized event designed to share a
+ nd improve the essential skills required to participate in collaborative
+ , free and open online projects. The event features a mix of educational
+  presentations and hands-on coaching from experts in participatory commu
+ nities.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180000
+DTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090702T000503
+LOCATION:Meeting Room N
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10250
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:00--10250
+SUMMARY:Sunlight Labs Hackathon
+DESCRIPTION:At the Sunlight Labs hackathon, Sunlight Labs will be workin
+ g with developers on two major projects: 1. Parsing sites at for our 50 
+ state project to get every state legislature in a common data format, an
+ d 2. Adding data into Sunlight's newest project, Congrelate.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T093000
+DTSTART;TZID=US/Pacific:20090723T091500
+ALTDTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090715T172914
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9168
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:15--9168
+SUMMARY:Your Work in Open Source, the Numbers
+DESCRIPTION:Presented by Chris DiBona (Google, Inc.). Google crawls more
+  than just web  pages, we also crawl source code. Ever wondered just how
+  much open source code is out there? What licenses is all that code unde
+ r? Which projects are the most shared? We'll try to answer these questio
+ ns in this talk.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T094500
+DTSTART;TZID=US/Pacific:20090723T093000
+ALTDTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090624T145340
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10209
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:30--10209
+SUMMARY:Enabling Academic Research – Open Tools and Services on Microsof
+ t Platforms
+DESCRIPTION:Presented by Tony Hey (Microsoft Corporation). Microsoft Ext
+ ernal Research builds bridges between academia, industry, and government
+  to advance computer science, education, and scientific research. Modern
+  science and academic research increasingly relies on integrated informa
+ tion technologies and computation to collect, process, and analyze compl
+ ex data.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T100000
+DTSTART;TZID=US/Pacific:20090723T094500
+ALTDTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090427T153754
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9210
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-09:45--9210
+SUMMARY:Cloud Computing - Why IT Matters
+DESCRIPTION:Presented by Simon Wardley (Canonical Ltd). Keynote by Simon
+  Wardley, Canoncial Ltd.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T101500
+DTSTART;TZID=US/Pacific:20090723T100000
+ALTDTSTART;TZID=US/Pacific:20090723T090000
+DTSTAMP:20090325T171030
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9016
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:00--9016
+SUMMARY:Q & A
+DESCRIPTION:An open microphone question and answer session with the morn
+ ing's keynote speakers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T214001
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8196
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8196
+SUMMARY:Drizzle: Status, Principles, and Ecosystem
+DESCRIPTION:Presented by Brian Aker (Sun Microsystems, Inc.), Monty Tayl
+ or (Sun Microsystems - Drizzle), Mark Atwood (Network.com at Sun Microsy
+ stems), Ronald  Bradford (42SQL), Eric Day (Sun Microsystems), Patrick G
+ albraith (Lycos Inc.). In this panel talk a number of core Drizzle devel
+ opers will explain where development sits today, critical tools involved
+ , best practices that were used to get here, and how a vibrant open-sour
+ ce developer community has been built.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090713T211653
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8008
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8008
+SUMMARY:<video> and the Open Web
+DESCRIPTION:Presented by Mark Surman (Mozilla Foundation), Asa Dotzler (
+ Mozilla). Using the <video> tag in HTML5, developers can do all sorts of
+  things that are hard or impossible with plugins. In this presentation, 
+ Mozilla's Mark Surman and Asa Dotzler paint a picture of the open video 
+ future and demo the cool stuff you can do with web video when it's prope
+ rly integrated with a page.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T213033
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8133
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8133
+SUMMARY:Persistence Solutions with the Smalltalk Seaside Web Framework
+DESCRIPTION:Presented by Randal L. Schwartz (Stonehenge Consulting Servi
+ ces, Inc.). Nearly all Web Applications need persistent solutions to be 
+ effective. For Perl and Ruby, the choice is generally "use an Object-Rel
+ ational Mapper to put data into an SQL database", but with Smalltalk's o
+ bject model, pure-object storage is also available as an option.  We'll 
+ look at ORM and Object solutions for web apps built with Seaside, includ
+ ing a few commercial solutions like GemStone/S
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090629T215044
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8105
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8105
+SUMMARY:Computational Journalism
+DESCRIPTION:Presented by Nick Diakopoulos (Georgia Tech), Brad Stenger (
+ Ars Technica). The era of traditional journalism is giving way to someth
+ ing else. We think that something else is Computational Journalism. CJ r
+ ecognizes the need for internal production and for public-facing news de
+ livery innovations. What journalists provide in terms of services, inter
+ faces, and business models are in flux. To settle things, smart experime
+ nts (often using Open Source APIs) are critical.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090312T152958
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8135
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8135
+SUMMARY:Situation Normal, Everything Must Change
+DESCRIPTION:Presented by Simon Wardley (Canonical Ltd). In today's compu
+ ting world, it can often feel like we are drowning in wave after wave of
+  new trends such as mashups, service oriented architecture and cloud com
+ puting. This sea of concepts are simply the manifestation of an underlyi
+ ng change in IT. In this session we will explore what is happening and w
+ hy open source is the dominant model for the future.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T220333
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8194
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8194
+SUMMARY:Introduction to Forensics
+DESCRIPTION:Presented by Kyle Rankin (QuinStreet, Inc.). n this talk Kyl
+ e Rankin will provide an introduction to performing forensics analysis o
+ n Linux machines using the popular Sleuthkit tools with their easy-to-us
+ e Autopsy web-based front-end. The talk will cover basic concepts for a 
+ forensics investigation, and at the end there will be a demo with a comp
+ romised Linux image.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T213251
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7920
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--7920
+SUMMARY:There Are No Unicorns: And Other Lessons Learned While Running a
+ n Innovation Team
+DESCRIPTION:Presented by Rolf Skyberg (eBay, Inc.). Everybody wants inno
+ vation. Innovation is believed to be magical unicorn which will lead the
+  way to success and riches, but this is easier said than done. In this t
+ alk I'll discuss lessons learned from two years driving innovation on eB
+ ay's Disruptive Innovation team; which strategies worked and which didn'
+ t, and what questions you should start asking first when someone tells y
+ ou to "go innovate"!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T213245
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8416
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8416
+SUMMARY:What Has Worked: OpenOffice.org Around the World
+DESCRIPTION:Presented by Louis Suarez-Potts (Sun Microsystems, Inc. / Op
+ enOffice.org). OOo has succeeded in engaging thousands of contributors a
+ round the world. Many are not technical. How was this done? As well, gov
+ ernments are now adopting OpenOffice.org: Why? And, how do the local and
+  localization communuties contribute to this adoption? Finally, what les
+ sons can other Foss projects take from OpenOffice.org's accompishments?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090714T180056
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8792
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8792
+SUMMARY:Wrangling Your Ubuntu Systems
+DESCRIPTION:Presented by Ken Drachnik (Canonical). As Ubuntu environment
+ s grow, the complexity of managing packages and updating systems quickly
+  outgrows the ability of a sys admin to easily manage servers and deskto
+ ps with manual commands and scripts.    This talk will explore some of t
+ he technologies that Ubuntu admins can use to manage their Ubuntu enviro
+ nments and how these can be extended to managing Cloud environments.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090504T175843
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8999
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8999
+SUMMARY:Building Enterprise Social Networks with Liferay Portal
+DESCRIPTION:Presented by Brian Chan (Liferay, Inc.). Liferay Portal is a
+  Java framework that provides blogs, document management, message boards
+ , and wikis, with a social network flavor. We'll demo how to use Liferay
+  Social API to wire collaborative social network sites for Cisco and Min
+ i United, write an app that will automatically expose it to Facebook and
+  iGoogle, and how to write language-agnostic apps in Java, Groovy, PHP, 
+ Python, and Ruby.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090716T202709
+LOCATION:Meeting Room C2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9914
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--9914
+SUMMARY:Building Complex UI Animations in Moblin Clutter 1.0
+DESCRIPTION:Presented by Chris Lord (Intel). In the process of creating 
+ application for the new user experience in Moblin 2.0, a lot has been le
+ arned about how to effectively use Clutter to build aesthetically pleasi
+ ng and practical interfaces. This will be a tutorial on how to implement
+  complex and good-looking UI animations using Clutter.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090615T205745
+LOCATION:Meeting Room C3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10185
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--10185
+SUMMARY:Give Your ERP Some REST with p2ee
+DESCRIPTION:Presented by Alejandro Imass (Yabarana Corporation). ERP is 
+ an area where FOSS programmers haven't particularly excelled at challeng
+ ing the dogmas of traditional IS. In fact, the “monolithic ERP” challeng
+ es the very nature of FOSS and the diversity of it's communities. p2ee i
+ s a back-to-basics approach, based on the REST architectural style and n
+ ew Web2 technologies.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090714T153106
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9119
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--9119
+SUMMARY:JRuby on Google App Engine
+DESCRIPTION:Presented by John Woodell (Google, Inc. ), Max Ross (Google,
+  Inc. ), Ted Han (Videojuicer). Using JRuby, apps created with Ruby fram
+ eworks like Rails or Merb can now be deployed to Google's highly scalabl
+ e infrastructure. This talk, will provide an overview of App Engine, wit
+ h attention to current features and apis. We will also show some demos, 
+ including deployment to the production environment, and provide some ins
+ ight into (and best practices for) using the App Engine Datastore.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090310T233842
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8169
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--8169
+SUMMARY:All the Little Pieces: Distributed systems with PHP
+DESCRIPTION:Presented by Andrei Zmievski (Digg). Scaling up takes you on
+ ly so far. Every Web business serious about its future needs to think ab
+ out scaling out. Distributed systems are a key component of this strateg
+ y, but they aren't as difficult as they sound. This session will cover s
+ everal distributed technologies and their use with PHP.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T113000
+DTSTART;TZID=US/Pacific:20090723T104500
+DTSTAMP:20090311T021751
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7373
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-10:45--7373
+SUMMARY:Java Testing on the Fast Lane
+DESCRIPTION:Presented by Andres Almiray (Oracle USA Inc.), Ixchel Ruiz (
+ CCA). Learn how the Groovy language can help you enhance your testing ex
+ perience of Java applications.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090310T214816
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8415
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8415
+SUMMARY:Functional Programming for the Real World
+DESCRIPTION:Presented by Bryan O'Sullivan (Serpentine Green Design). Lan
+ guages like Erlang, Haskell, Scala and Clojure have been gaining visibil
+ ity rapidly over the past few years. Our panel will discuss the advantag
+ es and challenges of developing and deploying software using functional 
+ languages. How do coding, QA, and maintenance change in this world?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090325T211619
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8584
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8584
+SUMMARY:Building Compilers with the Parrot Compiler Toolkit
+DESCRIPTION:Presented by Patrick Michaud (pmichaud.com). This talk provi
+ des a tutorial on creating compilers in Parrot using the Parrot Compiler
+  Toolkit.  It walks through the process of creating a parser, building a
+ n abstract syntax tree, and generating executable output.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090314T035856
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7859
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--7859
+SUMMARY:Tips and Tricks for Writing PostGIS Spatial Queries
+DESCRIPTION:Presented by Leo Hsu (Paragon Corporation), Regina Obe (Para
+ gon Corporation). We shall present 10 tricks/techniques for writing effi
+ cient PostGIS spatial queries.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090602T160439
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8354
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8354
+SUMMARY:The Google Open Source Update
+DESCRIPTION:Presented by Chris DiBona (Google, Inc.). In this talk, Chri
+ s DiBona will bring the audience up to date on recent Google activities 
+ in open source. We will specifically cover advances in Android's open so
+ urce deployment infrastructure, including the Gerrit and Repo tools, and
+  the directions those tools are taking.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090310T220701
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7984
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--7984
+SUMMARY:Eucalyptus: an Open Source Infrastructure for Cloud Computing
+DESCRIPTION:Presented by Rich Wolski (University of California, Santa Ba
+ rbara (UCSB)). We will present Eucalyptus -- Elastic Utility Computing A
+ rchitecture for Linking Your Programs to Useful Systems -- an open sourc
+ e software infrastructure that implements IaaS-style cloud computing. Th
+ e goal of Eucalyptus is to allow sites with existing clusters and server
+  infrastructure to host an elastic computing service that is interface-c
+ ompatible with Amazon's AWS.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090310T214915
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8397
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8397
+SUMMARY:Security-Centered Design: Exploring the Impact of Human Behavior
+DESCRIPTION:Presented by Chris Shiflett (OmniTI). Perception is as impor
+ tant as reality. In this multifarious talk, I'll introduce some of what 
+ I have learned about cognitive psychology, exploring topics such as chan
+ ge blindness and ambient signifiers, and I'll show some real-world examp
+ les that demonstrate the profound impact human behavior can have on secu
+ rity.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090311T010407
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8218
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8218
+SUMMARY:Building a Business on the Cheap
+DESCRIPTION:Presented by Chris Wanstrath (GitHub). With all the hype sur
+ rounding multimillion dollar rounds of funding, it's easy forget there's
+  another way to build a business: by being cheap and smart. By relying o
+ n open source, building in increments, and only buying what you need, it
+ 's possible to create a successful company on your own (or with a few co
+ -founders). This talk will focus on just that: the frugal path to profit
+ ability.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090310T225036
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8381
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8381
+SUMMARY:Make Great Spreadsheets
+DESCRIPTION:Presented by Casey West (Casey West Consulting). "Spreadshee
+ t::WriteExcel":http://search.cpan.org/~jmcnamara/Spreadsheet-WriteExcel-
+ 2.25/ is a great Perl module for generating useful Spreadsheets with mul
+ tiple worksheets, cell formatting, and data validation. You can use thes
+ e spreadsheets for simple reporting, of course, or you can use them as a
+ n alternate interface to a data heavy application.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090404T003942
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8298
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8298
+SUMMARY:Launchpad Foundations: Learning to Leverage a Component Architec
+ ture
+DESCRIPTION:Presented by Gary Poster (Canonical, Ltd.). Study gains and 
+ losses in how Launchpad, a collaboration web service for the open-source
+  community, used a Python component library from Zope 3 to help manage a
+  large project. Discuss when the approach might be appropriate. Code exa
+ mples include automatic REST web service generation.  Demonstrate how th
+ e component architecture might be leveraged in popular frameworks such a
+ s Django.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090706T231047
+LOCATION:Meeting Room C3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10357
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--10357
+SUMMARY:Controlling the Addiction: Best Practices for Scaling With Memca
+ ched (a.k.a "Crack for Developers") & the LAMP Stack
+DESCRIPTION:Presented by Joaquin Ruiz (Gear6). Dynamic consumer content 
+ on the Web is straining the LAMP stack and demands a new caching tier fo
+ r maximum scale.  Take a hit of Memcached and the sky's the scalability 
+ limit, but be careful not to overdose.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090311T132123
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8417
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8417
+SUMMARY:Accelerate your Rails Site with Automatic Generation-based Actio
+ n Caching
+DESCRIPTION:Presented by Rod Cope (OpenLogic, inc.). Rails caching is di
+ fficult and complicated.  It takes some work to set it up, but it's even
+  harder to make sure you always clear the right cache when data gets cha
+ nged.  This session demonstrates how to build an automatic generation-ba
+ sed action caching mechanism built on memcached that can handle edits fr
+ om any angle while guaranteeing that users never see stale data.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090310T213904
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7529
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--7529
+SUMMARY:Untestable Code
+DESCRIPTION:Presented by Sebastian Bergmann (thePHP.cc). How do you writ
+ e untestable code and anger an ancient goddess? These and other question
+ s will guide us while we discuss testability, an often forgotten attribu
+ te of software design and quality. Starting from untestable code fragmen
+ ts, the audience will learn why the code is untestable and how it can be
+  refactored for testability.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T122000
+DTSTART;TZID=US/Pacific:20090723T113500
+DTSTAMP:20090318T211034
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8348
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-11:35--8348
+SUMMARY:Spring Framework 3.0- New and Notable
+DESCRIPTION:Presented by Rod Johnson (SpringSource). The Spring Framewor
+ k is the most popular application programming framework for Java/Java EE
+  development, with widespread adoption across many industries. If you’re
+  a Spring user, you should understand the Spring 3.0 features and how th
+ ey may benefit you; if you are not yet a Spring user, you may find Sprin
+ g significantly more compelling.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090324T032001
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8106
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8106
+SUMMARY:State of Lightning Talks 2009
+DESCRIPTION:Presented by Josh Berkus (PostgreSQL Experts, Inc.). Come se
+ e your favorite open source projects for updates on what they've been do
+ ing while you were out partying (or job-hunting) all year.  What has Moz
+ illa been up to?  What's going on with the FreeBSD Kernel?  Have MySQL a
+ nd PostgreSQL finally killed each other off? Join us for a 1 1/2 hour se
+ ssion of 5-minute project updates, combined with both intentional and un
+ intentional humor.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090716T182601
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7999
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--7999
+SUMMARY: Thunderbird 3: A user-centric platform for email, learning from
+  the web
+DESCRIPTION:Presented by David Ascher (Mozilla Messaging), Dan Mosedale 
+ (Mozilla). Thunderbird 3 is nearing release -- in this developer-oriente
+ d talk, David Ascher and Dan Mosedale will talk about what Thunderbird 3
+  will mean to people who want to take an active role in managing their e
+ mail lives.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090310T213506
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7905
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--7905
+SUMMARY:Taming Your Data: Practical Data Integration Solutions with Kett
+ le
+DESCRIPTION:Presented by Roland Bouman (XCDSQL Solutions / Strukton Rail
+ ). Nowadays, data is everywhere: databases, spreadsheets, the web...if o
+ nly we could access it at on time, at the right place, in the right form
+ ... Turning data into information is a struggle. Like diamonds are mined
+  and cut to create jewels, so must data be extracted and transformed to 
+ create information. Learn how the open source data integration tool Kett
+ le helps to fight your data dragons.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090310T213248
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8409
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8409
+SUMMARY:Email Hates the Living!
+DESCRIPTION:Presented by Ricardo Signes (Pobox.com). Email: you see it e
+ very day. It's on your desktop. It's in your servers. Through the magic 
+ of modern technology, it flows invisibly through the air and into your P
+ DA! Your cellular phone conducts silent and arcane conversations  with d
+ istant servers, speaking the ancient language of SMTP and the unknowable
+  dialects of IMAP. Surely all this technology means progress of mankind.
+ .. or does it?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090312T072823
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7927
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--7927
+SUMMARY:Building Custom Linux Images for Amazon EC2
+DESCRIPTION:Presented by Eric Hammond (Campus Explorer, Inc.). Learn how
+  to create your own Linux machine images (AMIs) for running on Amazon EC
+ 2 (Elastic Compute Cloud) customized with your choice of software packag
+ es and application software configured to your liking. Use the latest op
+ en source software to build custom images from scratch in a secure, auto
+ mated, reproducible process. Discover when to use a public image with au
+ tomatic customization at boot.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090619T154230
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10204
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--10204
+SUMMARY:Why It Is Hard To Be Fast
+DESCRIPTION:Presented by Dirk Hohndel (Intel Corporation), Arjan van de 
+ Ven (Intel). From the early 80s to the early 2000s computers and softwar
+ e got faster. But in the last 5 years the perception of performance hasn
+ 't really changed - or has even gotten worse! In this presentation we'll
+  explain why it is hard to be fast, walk the audience step by step throu
+ gh one example where we addressed the issue and talk about ways to look 
+ at the problem more systematically.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090311T110242
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8083
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8083
+SUMMARY:Does Working with Free Software Have to be so Hard?
+DESCRIPTION:Presented by Dave Neary (Neary Consulting). Most companies w
+ ho start working with free software projects have trouble. They run over
+  common stumbling blocks. Questions go unanswered, patches go unreviewed
+ . Why does it take so much time and evergy to be a good citizen? This pr
+ esentation will outline the problems, and will give some metrics which y
+ ou can use to evaluate a community's health before marrying them.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090407T194535
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7564
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--7564
+SUMMARY:Erlang for Five Nines: A non technical introduction to Erlang
+DESCRIPTION:Presented by Francesco Cesarini (Erlang Training and Consult
+ ing Ltd). This talk will introduce Erlang, expanding on what the hype is
+  all about. It will provide a high level technical overview, looking at 
+ its concurrency model and distribution models, software upgrade during r
+ untime and scalability on multicore. It will describe its ever expanding
+  community and domains of use, with examples on open source applications
+ , commercial products and research projects
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090313T012221
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8166
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8166
+SUMMARY:FreeTUIT - Codeless GUI Programming
+DESCRIPTION:Presented by Eric Wilhelm (Scratch Computing). FreeTUIT is d
+ esktop programming with less code.  A concise, declarative syntax for wi
+ dget layout and an expressive API for runtime give you clean and maintai
+ nable wxWidgets or Qt cross-platform applications in minutes.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090406T140712
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8411
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8411
+SUMMARY:Building a Corporate Blog Portal Using WordPress MU
+DESCRIPTION:Presented by Dan York (Voxeo Corporation). In this tight eco
+ nomy, are you looking for a way to create a multi-blog portal for your c
+ ompany or organization without spending a zillion dollars?  This talk wi
+ ll introduce how you can create a powerful, custom-branded blog portal s
+ upporting blogs and podcasts using the open source WordPress MU.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090714T205725
+LOCATION:Meeting Room C3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10436
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--10436
+SUMMARY:The Secured Enterprise: Leverage OpenID with Web Services
+DESCRIPTION:Presented by Prabath Siriwardena (WSO2 Inc.). SOA security n
+ eeds to be by design, not as an afterthought. This session will demonstr
+ ate implementing Message Interceptor Gateway security pattern with WSO2 
+ ESB, WSO2 WSAS and WSO2 Identity Server - together with the OpenID/Infor
+ mation Cards integration pattern at the front end.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090310T220812
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8480
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8480
+SUMMARY:Rubinius 1.0: The Ruby VM That Could
+DESCRIPTION:Presented by Brian Ford (Engine Yard). This talk will give a
+ n overview of Rubinius, an alternative Ruby implementation with a C++ VM
+ , Ruby standard library, and Ruby compiler. It will also detail major re
+ cent changes like switching away from stackless execution and improvemen
+ ts in the core library data structures, garbage collector, compiler, and
+  JIT assembler.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090323T204710
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8363
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8363
+SUMMARY:Scaling Firefox Support with PHP
+DESCRIPTION:Presented by Laura Thomson (Mozilla Corporation). On Downloa
+ d Day 2008 eight million users downloaded Firefox 3 and set a Guinness W
+ orld Record.  Firefox 3's in-product help is provided by support.mozilla
+ .com, written in PHP and using a variety of FOSS tools.  Learn how we sc
+ aled up for Download Day and how we support millions of users worldwide.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T143000
+DTSTART;TZID=US/Pacific:20090723T134500
+DTSTAMP:20090317T235758
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8144
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-13:45--8144
+SUMMARY:A Survey of Concurrency Constructs
+DESCRIPTION:Presented by Ted Leung (Sun Microsystems). This talk will be
+  a survey of concurrent programming constructs which are currently avail
+ able in some programming language or library.    We will look at program
+ ming model being presented, as well as examining some of the implementat
+ ion challenges for the various models.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090312T074111
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8264
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8264
+SUMMARY:Prism, Bringing Web Applications to the Desktop
+DESCRIPTION:Presented by Matthew Gertner (Independent). Although web app
+ lications are catching up with their desktop counterparts, there is stil
+ l ground to cover. Prism, a project initiated by Mozilla Labs, is an att
+ empt to bridge this gap. In this talk, we explain why Prism represents a
+  superior web client for running web applications. We use a live demo to
+  show how easy it is to use Prism to customize a popular web app.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090311T095939
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8364
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8364
+SUMMARY:Neo4j - The Benefits of Graph Databases
+DESCRIPTION:Presented by Emil Eifrem (Neo Technology). A graph db stores
+  data in a network structure rather than in relational tables. This mode
+ l is well suited for many web use cases such as tagging, metadata annota
+ tions, social networks, wikis and other network-shaped or hierarchical d
+ ata sets. This talk will introduce Neo4j: a high-performance, transactio
+ nal open source graph db, which frequently outperforms RDBMSs with >1000
+ x for such use cases.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090310T223205
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7925
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--7925
+SUMMARY:How To Lie Like A Geek
+DESCRIPTION:Presented by Michael Schwern (Open Sourcery). Geeks have a s
+ pecial relationship with The Truth.  Nothing is more important than corr
+ ecting a falsehood, no matter how small, and nothing is more odious than
+  not telling The Truth.  Unfortunately the meaning is often mangled and 
+ the end result is the opposite, a lie.  This leads to misunderstanding, 
+ mangled interfaces and the myth of the stupid user.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090716T023654
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8362
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8362
+SUMMARY:Building a Highly Scalable, Open Source, Twitter Clone
+DESCRIPTION:Presented by Dan Diephouse (MuleSource), Paul Brown (Multifa
+ rious, Inc). What would you do if you were tasked with building a Twitte
+ r clone which was highly scalable, made from open source components and 
+ deployed in this infamous thing we call the cloud?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090714T213122
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10435
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--10435
+SUMMARY:MariaDB: Community Driven SQL Server
+DESCRIPTION:Presented by Kurt von Finck (Monty Program Ab), Michael Wide
+ nius (Monty Program Ab). MariaDB is a fork of Sun's MySQL product. This 
+ talk will present how MariaDB is both similar to and different from MySQ
+ L, in both social and technical senses.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090311T190108
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7453
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--7453
+SUMMARY:Apache's "Open for Business" - Holistic Analysis and Design
+DESCRIPTION:Presented by David E Jones (Apache Software Foundation). Ope
+ n source software opens a new world of efficiency and flexibility for so
+ ftware, leading to new levels of custom built and customized software. T
+ he approach described combines common pre-implementation artifacts used 
+ in specific ways to lead from requirements to designs and then to softwa
+ re that does a good job of meeting the needs of individuals and organiza
+ tions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090316T203734
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8377
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8377
+SUMMARY:The Role of Users in Open Source Projects
+DESCRIPTION:Presented by Stormy Peters (GNOME Foundation). While consume
+ rs and the open source community don't interact often, users are importa
+ nt to projects because users test software, spread the word, motivate de
+ velopers, lend credibility, contribute financially and participate in us
+ ers groups. Come learn why users are important to an open source project
+  and how they can be more involved.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090310T230538
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8230
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8230
+SUMMARY:High Performance SQL with PostgreSQL
+DESCRIPTION:Presented by David Fetter (PgExperts). PostgreSQL 8.4 is the
+  first Open Source database management system to handle trees and lists 
+ using SQL:2008-compliant Common Table Expressions and Windowing function
+ s.  You'll learn how these work, see intriguing examples, and walk out r
+ eady to use them to your advantage.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090504T112015
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8460
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8460
+SUMMARY:Improving Legal Certainty in FOSS: Best Practices for Upstream P
+ rojects
+DESCRIPTION:Presented by Richard Fontana (Red Hat, Inc.). FOSS can be se
+ en as a new kind of legal system that facilitates sharing rights in code
+ . Viewed in this way, FOSS can benefit from greater public knowledge of 
+ code origins and licensing rules. My talk will focus on practical guidan
+ ce for projects seeking to improve legal certainty in the code they writ
+ e and use. I  will conclude with some longer-term institutional proposal
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090609T174834
+LOCATION:Meeting Room C2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10154
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--10154
+SUMMARY:Solving The Troll Problem: The Role of Allied Security Trust and
+  Open Invention Network
+DESCRIPTION:Presented by Keith Bergelt (Open Invention Network), Daniel 
+ McCurdy (Allied Security Trust). Over the last decade, patent litigation
+ s launched by “patent trolls” have increased from approximately 3% of al
+ l patent litigations filed to over 17%.  This session will analyze this 
+ issue and offer detailed recommendations to reduce exposures to “patent 
+ trolls,” including the role of AST and OIN in reducing such threats.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090701T203154
+LOCATION:Meeting Room C3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10340
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--10340
+SUMMARY:How to Become a RESTafarian WOArrior
+DESCRIPTION:Presented by Aaron Fulkerson (MindTouch, Inc. ). The web has
+  evolved into the preeminent application platform. The design principles
+  and technologies that have served the Internet well in terms of cost, s
+ cale and ease of development are just beginning to be applied to the ent
+ erprise. This session explains the characteristics and benefits of Web O
+ riented Architecture (WOA), provides strategies and includes enterprise 
+ success stories.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090630T174954
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7965
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--7965
+SUMMARY:IronRuby 0.9
+DESCRIPTION:Presented by Jimmy Schementi (Microsoft). IronRuby is almost
+  at 1.0! Come and see how IronRuby is used in .NET programs, how well it
+  performs, and how conformant it is.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090317T190258
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8386
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--8386
+SUMMARY:2009 PHP Best Practices
+DESCRIPTION:Presented by Luke Welling (OmniTI), Laura Thomson (Mozilla C
+ orporation). Web applications are like trees.  Slice through them and yo
+ u can judge their age by looking at the growth rings. You've probably ab
+ andoned PHP4 compatibility by now, but are you taking advantage of pract
+ ices that have made web application development a mature discipline? Com
+ e with us on a tour of PHP best practices in 2009.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T152000
+DTSTART;TZID=US/Pacific:20090723T143500
+DTSTAMP:20090310T220346
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7917
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-14:35--7917
+SUMMARY:Clojure: Functional Concurrency for the JVM
+DESCRIPTION:Presented by Howard Lewis Ship (Formos). Clojure is a functi
+ onal programming language that runs on the JVM and features great perfor
+ mance and innovative concurrency support.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090311T033638
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7934
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7934
+SUMMARY:Perl Lightning Talks
+DESCRIPTION:Presented by R Geoffrey Avery (Marchex Voice Services). A se
+ ries of 5-minute talks on anything related to Perl or people who use it.
+  A chance to get one-third of your 15 minutes of fame.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090323T205157
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8107
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8107
+SUMMARY:Mashing-up Music with Songbird
+DESCRIPTION:Presented by Steven Bengston (Pioneers of the Inevitable). K
+ now Javascript, HTML, and CSS?  Interested in music, and exploring what'
+ s possible when you combine the power of Mozilla, add-ons, and music on 
+ the web?  Songbird, a desktop media player powered by Mozilla's XULRunne
+ r/Firefox platform, allows you to build Javascript extensions to create 
+ new digital media mashups using open APIs, and media web services.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090310T221754
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7975
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7975
+SUMMARY:Cassandra: Open Source Bigtable + Dynamo
+DESCRIPTION:Presented by Jonathan Ellis (Rackspace Hosting). Cassandra i
+ s a third-generation open source distributed database that marries Bigta
+ ble's rich data model with Dynamo's aggressive simplicity to produce a u
+ niquely compelling alternative to traditional relational databases.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090622T213820
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8300
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8300
+SUMMARY:Beyond the Hype: The True Costs of Open Source
+DESCRIPTION:Presented by Matt Asay (Alfresco), Zack Urlocker (MySQL), Ma
+ tt Deuel (Virgin Mobile), Jeffrey Hammond (Forrester Research), Barry  K
+ lawans (San Francisco International Airport, IT&T Department). In a time
+  of tight IT budgets, open source has attracted much attention due to it
+ s cost advantages.  But what is hype and what is reality? Join industry 
+ veterans, analysts and end-users as the look at the true costs and cost 
+ savings of open source.  Participants will discuss how smart open source
+  implementation can save money and where investments need to be made.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090716T175345
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7910
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7910
+SUMMARY:Portability in the Cloud: An Open Standard for Using Cloud Resou
+ rces
+DESCRIPTION:Presented by Alex Polvi (Cloudkick). This talk will discuss 
+ the on going effort to standardize the interfaces into the cloud. Curren
+ tly every cloud provider has a unique, proprietary, API for consuming th
+ e services they offer. The Cloud Computing Interoperability movement aim
+ s to provide standards that will overcome vendor lock-in, benefit the co
+ nsumers, and allow the cloud ecosystem to grow transparently.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090325T210033
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8559
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8559
+SUMMARY:Implementing Privacy: OAuth & Token Madness
+DESCRIPTION:Presented by Evan 'Rabble' Henshaw-Plath (entp.com). Ever cr
+ inge when you're asked to enter your email address and password to a thi
+ rd party service? This talk will cover how to build and consume services
+  which protect users privacy with OAuth and other techniques.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090310T213239
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8256
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8256
+SUMMARY:Easy as BIRT: Introduction to Reporting
+DESCRIPTION:Presented by Jason Weathersby (Actuate Corporation). This se
+ ssion will detail using BIRT to create interactive content for your intr
+ anet and external web based applications.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090311T004447
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8212
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8212
+SUMMARY:Just Get the Job Done! Serving the Community One Argument at a T
+ ime.
+DESCRIPTION:Presented by Jacinta Richardson (Perl Training Australia). T
+ he president of your committee is doing most of the work and none of the
+  management.  The secretary hasn't written the minutes for any of the me
+ etings for the last 6 months (you wrote the last 4 agendas).  The treasu
+ rer can't access the bank account, and you haven't heard from your publi
+ city officer since you started planning the big event.  Welcome to the f
+ un of volunteer communities!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090310T215811
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7438
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7438
+SUMMARY:Open Source Documentation Doesn't Have to Suck
+DESCRIPTION:Presented by Addison Berry (Lullabot). Many people view Open
+  Source documentation as something they have to suffer if they want to u
+ se a free product. As Open Source code spreads faster and further in the
+  great, wide world, we need to up the ante on documentation as well to k
+ eep fanning the flames. We'll take a look at how one community, the Drup
+ al project, is trying to raise the bar and how others can learn from the
+ ir ups and downs.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090415T180534
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7915
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7915
+SUMMARY:XTraDB OpenSource Storage Engine for MySQL
+DESCRIPTION:Presented by Vadim Tkachenko (Percona Inc), Ryan Lowe (Perco
+ na). A storage engine for MySQL based on the InnoDB storage engine, desi
+ gned to better scale on modern hardware, and including a variety of othe
+ r features useful in high performance environments. It is fully backward
+ s compatible, and so can be used as a drop-in replacement for standard I
+ nnoDB.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090508T154947
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8049
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8049
+SUMMARY:Unit Test Your Database!
+DESCRIPTION:Presented by David Wheeler (Kineticode, Inc.). You unit test
+  your application API. You unit test your presentation layer. You write 
+ integration and acceptance tests. But your database is tested only as a 
+ side-effect to testing everything else. That's a pretty important part o
+ f the stack to just leave to the assumption it works as expected! Come t
+ o this talk to learn about the tools that enable integrated unit tests f
+ or your database.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090319T000405
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8126
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--8126
+SUMMARY:Website Releases Made Easy with the PEAR Installer
+DESCRIPTION:Presented by Helgi Thomar Thorbjoernsson (echolibre). Ever w
+ ondered if there is a easier way to manage releases for your website ? Y
+ ou will learn how to harness the power of the PEAR installer to make the
+  release process as lean, mean and slick as possible so even your intern
+ s will be able to handle it.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T171500
+DTSTART;TZID=US/Pacific:20090723T163000
+DTSTAMP:20090311T024947
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7505
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-16:30--7505
+SUMMARY:NASA World Wind: A New Mission
+DESCRIPTION:Presented by Patrick Hogan (NASA), Randy Kim (NASA). We are 
+ entering an era when 3D visualization technology will become as standard
+  as 2D web browsers are today. NASA World Wind is standards-based, open 
+ source technology oriented to stimulate innovation. Just as public highw
+ ays built for the common good opened up huge opportunities for society, 
+ so too NASA World Wind client *and* server technology provides a public 
+ domain 3D highway.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090310T223443
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8332
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8332
+SUMMARY:Use LINA to Reach Your Users on all Platforms
+DESCRIPTION:Presented by Saill White (Lina Software), Paul  Honis (Lina 
+ Software). In this session, we will help you create a single universal b
+ inary and installer of your Open Source project that can run on Windows,
+  Mac, UNIX, Xen, VMware, VirtualBox, Qemu, Parallels, and Amazon's EC2. 
+ If you want to Linafy your app, just create a Debian package of your app
+ lication and bring that and a 128x128 PNG image of your logo.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090318T002422
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7948
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--7948
+SUMMARY:MySQL Community Patches & Extensions
+DESCRIPTION:Presented by Peter Zaitsev (MySQL Performance Blog). Besides
+  MySQL release officially available from Sun there are multiple patches 
+ and extensions developed by community.  In this Presentation we will loo
+ k into them to see what extra features patches from Google, Percona and 
+ OurDelta offer and how can you use them to make your MySQL life more fun
+ .
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090529T184807
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7471
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--7471
+SUMMARY:What Web App Design Can Learn From the Harpsichord
+DESCRIPTION:Presented by Elaine  Wherry (Meebo). Baroque harpsichordists
+  excelled at taking simple melodies and creating elaborate, beautiful pi
+ eces of music. But in their desire to push the boundaries of experimenta
+ tion, these keyboard virtuosi eventually ornamented the music beyond the
+  limits of good taste, making the composer’s original melody unrecogniza
+ ble. Something similar happens in web design.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090310T221244
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8825
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8825
+SUMMARY:Building Applications Across the Enterprise and Cloud Using Mule
+DESCRIPTION:Presented by Ken Yagen (MuleSource). This session details ho
+ w developers can use Mule -- an open source enterprise service bus (ESB)
+  -- to develop, deploy and integrate composite applications on both side
+ s of the firewall, and how Mule can work with complementary technology t
+ o address virtualization concerns.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090310T214627
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8081
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8081
+SUMMARY:What Zope did wrong, and how we fixed it
+DESCRIPTION:Presented by Lennart Regebro (Independent). Ten years old, Z
+ ope is the granddaddy of open source web frameworks. It introduced many 
+ new concepts that have spread through the web framework world. But not a
+ ll of them was such great ideas. This talk is about the bad ideas that y
+ our framework risk end up repeating.  It also talks about how these prob
+ lems have been fixed in Zope, and why Zope still is the leading edge of 
+ web development.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090713T230529
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8038
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8038
+SUMMARY:Writing Books using Open Source Software
+DESCRIPTION:Presented by wesley chun (CyberWeb Consulting). These days, 
+ there are countless number of software applications and web services tha
+ t have been developed using free and open source software (FOSS). Such t
+ ools have become so flexible, powerful, and universal, that it should al
+ so be possible for authors to write manuscripts using FOSS in the same w
+ ay that applications are developed. In this talk, we present some case s
+ tudies of this phenomenon.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090310T213149
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8074
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8074
+SUMMARY:Effective Job Interviewing from Both Sides of the Desk
+DESCRIPTION:Presented by Andy Lester (theworkinggeek.com). An engaging, 
+ frank discussion of the job interview, its failings, and how to make it 
+ work for all involved.  Effective interviewing reframes the interview as
+  what it really is: The candidate's first day on the job.  This session,
+  aimed at the specific needs of the technical professional, shows how ma
+ nager and candidate must work together for their common benefit.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090323T205650
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7548
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--7548
+SUMMARY:Version Control for Mere Mortals
+DESCRIPTION:Presented by Emma Jane Hogbin (HICK Tech). As a freelance de
+ veloper chances are good you use either many, or no, version control sys
+ tems for your code. If your mental health has been compromised by index.
+ version080912f-b.inc file naming, or you wish there was more flexibility
+  in how (and when) your files are submitted to data central, it’s possib
+ le that Bazaar is the version control system you’ve been waiting for.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090505T195950
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8896
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8896
+SUMMARY:Building a Business on Open Source Distributed Computing
+DESCRIPTION:Presented by Bradford Stephens (Visible Technologies). The e
+ nd of "scale-up" computing is near. The coming wave of web-scale data is
+  too big to justify exponentially increasing hardware costs for decreasi
+ ng returns. Apache's "Cloud Stack" (Hadoop, Lucene, HBase, etc) is enabl
+ ing Visible Technologies to move from a non-scalable MS-exclusive platfo
+ rm to a large cluster processing millions of pieces of content a day.Her
+ e's what we learned.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090311T144659
+LOCATION:Meeting Room J1/J4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/7754
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--7754
+SUMMARY:"Design Patterns" in Dynamic Languages
+DESCRIPTION:Presented by Neal Ford (ThoughtWorks). Design patterns descr
+ ibe common problems in software development, but many people believe tha
+ t the GoF book demonstrates the best ways to implement these patterns. D
+ ynamic languages provide more facilities than C++ or Java; this session 
+ shows alternative implementations of design patterns using dynamic langu
+ ages (Ruby and Groovy).
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090316T134515
+LOCATION:Meeting Room J2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8089
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8089
+SUMMARY:XDebug Your Code: Tips and Tricks for Writing Bug-Free High Impa
+ ct Code
+DESCRIPTION:Presented by Brandon Savage (Applied Security). Most develop
+ ers have heard of XDebug, but how many of them have actually used it to 
+ its full potential? Here we explore all the exciting things XDebug can d
+ o to improve code, from profiling to benchmarking to variable output.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T180500
+DTSTART;TZID=US/Pacific:20090723T172000
+DTSTAMP:20090310T220616
+LOCATION:Meeting Room J3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/8088
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-17:20--8088
+SUMMARY:What Open Source Projects Need to Know About Interacting with th
+ e Press
+DESCRIPTION:Presented by Esther Schindler (freelance writer and editor),
+  Steven Vaughan-Nichols (Practical Technology), Joe Brockmeier (Novell),
+  James Turner (O'Reilly Media), Jennifer  Cloer (Page One PR). Plenty of
+  FOSS projects yearn for visibility, within the tech press or in the lar
+ ger world. But few know how to respond when a journalist indicates inter
+ est. These experienced writers and editors will explain how your project
+  can get attention and present itself in the best possible light.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T183000
+DTSTART;TZID=US/Pacific:20090723T181500
+DTSTAMP:20090625T182346
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9004
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-18:15--9004
+SUMMARY:White Camel Awards
+DESCRIPTION:In the lands where the camel roams, the white (albino) camel
+  is a rare and revered individual. The White Camel Awards recognize the 
+ many significant contributions made by the unsung heros of the Perl comm
+ unity. The efforts of these volunteers collectively make the Perl langua
+ ge and the Perl community better for all of us.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T193000
+DTSTART;TZID=US/Pacific:20090723T183000
+ALTDTSTART;TZID=US/Pacific:20090723T181500
+DTSTAMP:20090529T172427
+LOCATION:Exhibit Hall 3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9005
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-18:30--9005
+SUMMARY:State of the Onion Address
+DESCRIPTION:Presented by Larry Wall (Netlogic Microsystems). The OSCON t
+ radition continues as Larry Wall delivers the annual State of the Onion 
+ Address.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090528T233838
+LOCATION:Ballroom A1
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9407
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--9407
+SUMMARY:Freedom For the Cloud: How We Learn to Control the Cloud and Liv
+ e Happy
+DESCRIPTION:This BoF will serve as introduction to the debate over the c
+ oncept of software freedom for cloud based applications and services. OS
+ CON attendants will learn what tools are available and will dig into the
+  wider concept of the 'cloud' and how the keys to the success of GNU/Lin
+ ux can be replicated in this evolved scenario.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090602T225645
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9678
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--9678
+SUMMARY:OpenJDK + You - Adding Open to JDK development
+DESCRIPTION:With more then 30 new committers within a year, OpenJDK has 
+ been growing quickly, but that's just a start -  if you are hacking on J
+ DK 7 or using one of the OpenJDK subprojects like Da Vinci VM, or just w
+ ant to get a taste for the direction in which JDK 7 is going, or want to
+  explore what it would take to get your favorite programming language ru
+ nning well on the JVM - come and join us at the BoF.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090716T182215
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10412
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10412
+SUMMARY:Dynamic Tracing of Your AMP Website
+DESCRIPTION:Ever wonder which PHP script or MySQL query in your web site
+  is keeping your system busy or how to quickly find out which module wit
+ hin your PHP application is struck ? Stop by to find out how simple DTra
+ ce skills can get this information painlessly.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090622T043727
+LOCATION:Ballroom A4/A5
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10195
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10195
+SUMMARY:OpenStreetMap
+DESCRIPTION:What's Open Source without Open Data as an input?  OpenStree
+ tMap is a set of free and open geodata.  You can use it as vectors (try 
+ THAT with Google Maps), as tiles, as a base layer for your GIS.  You can
+  overlay your data or contribute it if appropriate.  Let's talk about ma
+ ps and mapping!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090615T211454
+LOCATION:Ballroom A7
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10175
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10175
+SUMMARY:Creating Communities Worldwide with phpBB
+DESCRIPTION:Organizations, businesses, clubs, and all kinds of user grou
+ ps around the world are using online bulletin boards to bring communitie
+ s together, and phpBB is the most widely used free and open source bulle
+ tin board solution online. Join local Bay Area phpBB users and team memb
+ ers to learn more about phpBB and how you can use it to bring your commu
+ nity together online.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090623T154313
+LOCATION:Ballroom A8
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10201
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10201
+SUMMARY:SilverStripe - An Object-oriented Open Source CMS - Community Me
+ etup
+DESCRIPTION:SilverStripe is a PHP5-based CMS downloaded 160,000+ times. 
+ It focuses on being user friendly to end-users, and has an object orient
+ ed framework, Sapphire, within it, for developers.  Meet a founder and o
+ thers who use the software. Gain an overview of the project and ask lots
+  of questions!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090624T164216
+LOCATION:Meeting Room B1/B4
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10212
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10212
+SUMMARY:Women in FLOSS and Allies Gathering
+DESCRIPTION:Women represent around 1-2% of FLOSS developers, and only a 
+ slightly higher percentage of OSCON attendees.  Let's meet and share exp
+ eriences, discuss tools for change, and get to know each other.  Women a
+ nd allies of other genders are all welcome.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090712T081056
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10214
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10214
+SUMMARY:What is Python?
+DESCRIPTION:Python's a simple & robust programming language that has an 
+ ever-increasing mindshare & number of worldwide users. It features an ea
+ sy-to-learn syntax that is clear & concise, making it popular for a wide
+  range of apps. This tutorial provides an in-depth introduction so you c
+ an get started right away! Come find out why Google, Yahoo, LucasFilm, V
+ Mware, Ubuntu, YouTube, & Red Hat all use Python.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090714T005657
+LOCATION:Meeting Room B3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10379
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10379
+SUMMARY:Open Source goes to the Museum
+DESCRIPTION:Design a museum exhibit for The Tech Museum!  Win a cash pri
+ ze!  Help teach several hundred thousand kids a year about technology an
+ d open source!  Come to this BOF and learn more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090715T121934
+LOCATION:Meeting Room C2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10392
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--10392
+SUMMARY:Going Social at NYTimes.com
+DESCRIPTION:The New York Times is first and foremost in the news busines
+ s. We don't want to be the next Facebook, Twitter, etc. But we see lots 
+ of potential for a community and social layer on NYTimes.com, and TimesP
+ eople is a great example of how we've begun to build that layer. Come sh
+ are your thoughts and ideas on how The New York Times can better turn it
+ s readers into users.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T200000
+DTSTART;TZID=US/Pacific:20090723T190000
+DTSTAMP:20090716T182231
+LOCATION:Meeting Room C3
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/9776
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-19:00--9776
+SUMMARY:Drizzle
+DESCRIPTION:Did you miss the Drizzle panel? Have a question that didn't 
+ get answered? Here's one more chance to discuss things!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T210000
+DTSTART;TZID=US/Pacific:20090723T200000
+DTSTAMP:20090716T111313
+LOCATION:Ballroom A2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10448
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-20:00--10448
+SUMMARY:How I Built a Cool Monitoring Application Using Dojo, AJAX and R
+ EST
+DESCRIPTION:WEB2.0 and RIA (Rich Internet Applications) are the new plat
+ forms of developing web applications. Join this discussion on how open s
+ ource tools and frameworks were used to build the Web Stack Enterprise M
+ anager, a monitoring and management web application based on Dojo, AJAX 
+ and REST.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T210000
+DTSTART;TZID=US/Pacific:20090723T200000
+DTSTAMP:20090716T182148
+LOCATION:Ballroom A3/A6
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10442
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-20:00--10442
+SUMMARY:OSOSOS - Offering Security in OpenSource Operating Systems
+DESCRIPTION:Many operating system security mechanisms are necessary for 
+ developers to build secure software.  While this session presents a few 
+ such mechanisms available and under development in _OpenSolaris_, it pri
+ marily seeks the dialogue and discussion how important these features ar
+ e and how they compare to those of other OSes.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20090723T220000
+DTSTART;TZID=US/Pacific:20090723T200000
+DTSTAMP:20090714T180852
+LOCATION:Meeting Room B2
+URL:http://en.oreilly.com/oscon2009/public/schedule/detail/10349
+UID:http://conferences.oreilly.com/oscon--s2009-07-23-20:00--10349
+SUMMARY:BayPIGgies July Meeting
+DESCRIPTION:BayPIGgies is the Bay Area Python Interest Group, which meet
+ s on the fourth Thursday of every month.  In honor of OSCON moving to Sa
+ n Jose, we're switching our meeting location to the San Jose Convention 
+ Center for July.
+END:VEVENT
