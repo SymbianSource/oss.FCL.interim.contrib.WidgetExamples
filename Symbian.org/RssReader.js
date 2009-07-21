@@ -16,6 +16,7 @@ function RssReader(aFeedName, aFeedUrl, aFeedPresenter, aParent, aResponseParser
 	this.hasData = false;
 	this.startFromItem = 0;
 	this.maxItems = 0;
+	this.escapeLtGt = true;
 	
 	var caption = createCaption(aFeedName);
 	
@@ -116,6 +117,7 @@ RssReader.prototype.update = function(forceFeedUpdate){
 		// fetch the feed from the specified URL
 		this.feedUpdateBrokerActive = true;
 		this.feedUpdateBroker = new FeedUpdateBroker();
+		this.feedUpdateBroker.escapeLtGt = this.escapeLtGt;
 		this.feedUpdateBroker.startFromItem = this.startFromItem;
 		this.feedUpdateBroker.maxItems = this.maxItems;
 		

@@ -11,7 +11,7 @@ function MenuItem(name, id)
 	this.name = name;
 	this.isDimmed = false;
 	
-	this.items = Array();
+	this.items = [];
 	this.index = null;
 	this.parent = null;
 	this.type = 'MenuItem';
@@ -33,7 +33,7 @@ MenuItem.prototype.append = function(childMenuItem)
 	if( (childMenuItem != null) && (childMenuItem.type == 'MenuItem'))
 	{
 		childMenuItem.parent = this;
-		this.items.push(childMenuItem);
+		this.items[childMenuItem.id] = childMenuItem;
 	}
 }
 
@@ -74,9 +74,8 @@ MenuItem.prototype.setDimmed = function(flag)
 */
 MenuItem.prototype.search = function(MenuItem)
 {
-		var i;
 		var flag = false;
-		for(i=0; i<this.items.length; i++)
+		for(var i in this.items)
 		{
 			if(this.items[i].id == MenuItem.id)
 			{	
@@ -89,3 +88,6 @@ MenuItem.prototype.search = function(MenuItem)
 		else
 			return -1;		
 }
+
+//	make TRUE menuItem.js script loaded
+window.parent.NOKIA.scriptsLoaded.menuItem = true;

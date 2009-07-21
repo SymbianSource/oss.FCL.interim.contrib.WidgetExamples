@@ -456,7 +456,7 @@ function bbcode2html(s) {
 		if ( ind3 != -1 && ind3 < ind2) {
 			tag = s.substring(ind+1,ind3);
 		} 
-		var ind4 = s.indexOf("[/"+tag+"]");
+		var ind4 = s.indexOf("[/"+tag+"]", ind2);
 		var tagContent = s.substring(ind2+1, ind4);
 		buf += convertTag(tag, fulltag, tagContent);
 		if ( ind4 != -1 ) {

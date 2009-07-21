@@ -4,6 +4,7 @@
 
 // Constructor.
 function FeedUpdateBroker() {
+	this.escapeLtGt=true;
     this.httpReq = null;
     this.feedAddress = null;
     this.callback = null;
@@ -95,7 +96,7 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
                     if (node.nodeName == "pubDate" ||
                             node.nodeName == "lastBuildDate" ||
                             node.nodeName == "dc:date") {
-                        lastModified = getTextOfNode(node);
+                        lastModified = getTextOfNode(node, this.escapeLtGt);
                         break;
                     }
                 }
@@ -125,18 +126,18 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
                 if (node.nodeType == Node.ELEMENT_NODE) {
                     if (node.nodeName == "title") {
                         // item title
-                        title = getTextOfNode(node);
+                        title = getTextOfNode(node, this.escapeLtGt);
                     } else if (node.nodeName == "pubDate" || node.nodeName == "dc:date") {
                         // item publishing date
-                        date = getTextOfNode(node);
+                        date = getTextOfNode(node, this.escapeLtGt);
                     } else if (node.nodeName == "description" && !this.ignoreContent ) {
                         // item description
-                        description = getTextOfNode(node);
+                        description = getTextOfNode(node, this.escapeLtGt);
                     } else if (node.nodeName == "link") {
                         // link URL
-                        url = getTextOfNode(node);
+                        url = getTextOfNode(node, this.escapeLtGt);
                     } else if (node.nodeName == "dc:creator" ) {
-						author = getTextOfNode(node);
+						author = getTextOfNode(node, this.escapeLtGt);
 					}
                 }
                 node = node.nextSibling;
@@ -155,7 +156,7 @@ FeedUpdateBroker.prototype.handleRssResponse = function(broker, responseStatus, 
 }
 
 // Returns the text of a node.
-function getTextOfNode(node) {
+function getTextOfNode(node, escapeLtGt) {
     var buf = "";
 	// iterate through all child elements and collect all text to the buffer
 	var child = node.firstChild;
@@ -165,44 +166,51 @@ function getTextOfNode(node) {
 			if (buf != "") {
 				buf += " ";
 			}
-			buf += escapeLtGt(child.nodeValue);
+			buf += child.textContent;
+//			if (escapeLtGt) {
+//				buf += doEscapeLtGt(child.nodeValue);
+//			} else {
+//				buf += child.nodeValue;
+//			}
 		}
 		child = child.nextSibling;
 	}
-    // strip all tags from the buffer
-    var strippedBuf = "";
-    var textStartPos = -1;
-    var tagBalance = 0;
 	
-    var pos;
-    // iterate through the text and append all text to the stripped buffer
-    // that is at a tag balance of 0
-    for (pos = 0; pos < buf.length; pos++) {
-        var c = buf.charAt(pos);
-        if (c == '<') {
-            // entering a tag
-            if (tagBalance == 0 && textStartPos != -1) {
-                // everything up to here was valid text
-                strippedBuf += buf.substring(textStartPos, pos);
-                textStartPos = -1;
-            }
-            tagBalance++;
-        } else if (c == '>') {
-            // leaving a tag
-            tagBalance--;
-            textStartPos = -1;
-        } else if (tagBalance == 0 && textStartPos == -1) {
-            // first char of text
-            textStartPos = pos;
-        }
-    }
+	return buf;
+//    // strip all tags from the buffer
+//    var strippedBuf = "";
+//    var textStartPos = -1;
+//    var tagBalance = 0;
+//	
+//    var pos;
+//    // iterate through the text and append all text to the stripped buffer
+//    // that is at a tag balance of 0
+//    for (pos = 0; pos < buf.length; pos++) {
+//        var c = buf.charAt(pos);
+//        if (c == '<') {
+//            // entering a tag
+//            if (tagBalance == 0 && textStartPos != -1) {
+//                // everything up to here was valid text
+//                strippedBuf += buf.substring(textStartPos, pos);
+//                textStartPos = -1;
+//            }
+//            tagBalance++;
+//        } else if (c == '>') {
+//            // leaving a tag
+//            tagBalance--;
+//            textStartPos = -1;
+//        } else if (tagBalance == 0 && textStartPos == -1) {
+//            // first char of text
+//            textStartPos = pos;
+//        }
+//    }
+//    
+//    // add remaining text - if any
+//    if (tagBalance == 0 && textStartPos != -1) {
+//        strippedBuf += buf.substring(textStartPos, pos);
+//    }
     
-    // add remaining text - if any
-    if (tagBalance == 0 && textStartPos != -1) {
-        strippedBuf += buf.substring(textStartPos, pos);
-    }
-    
-    return strippedBuf;
+//    return strippedBuf;
 }
 
 FeedUpdateBroker.prototype.cancel = function() {
@@ -210,7 +218,7 @@ FeedUpdateBroker.prototype.cancel = function() {
 	this.httpReq.abort();
 }
 
-function escapeLtGt(text){
+function doEscapeLtGt(text){
 	var lt = "&lt;";
 	var gt = "&gt;";
 	return text.replace(/</g, lt).replace(/>/g, gt);

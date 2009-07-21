@@ -101,3 +101,7 @@ function systemAPI(sysObject)
 	sysObject.drivefree	= function(drive){	return 32;	}
 
 }
+
+
+//	make TRUE systeminfo.js script loaded
+window.parent.NOKIA.scriptsLoaded.systeminfo = true;
