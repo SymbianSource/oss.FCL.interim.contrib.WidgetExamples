@@ -165,56 +165,15 @@ function getTextOfNode(node) {
 			if (buf != "") {
 				buf += " ";
 			}
-			buf += child.textContent;
-//				buf += doEscapeLtGt(child.nodeValue);
+			buf += child.nodeValue;
 		}
 		child = child.nextSibling;
 	}
 	
 	return buf;
-//    // strip all tags from the buffer
-//    var strippedBuf = "";
-//    var textStartPos = -1;
-//    var tagBalance = 0;
-//	
-//    var pos;
-//    // iterate through the text and append all text to the stripped buffer
-//    // that is at a tag balance of 0
-//    for (pos = 0; pos < buf.length; pos++) {
-//        var c = buf.charAt(pos);
-//        if (c == '<') {
-//            // entering a tag
-//            if (tagBalance == 0 && textStartPos != -1) {
-//                // everything up to here was valid text
-//                strippedBuf += buf.substring(textStartPos, pos);
-//                textStartPos = -1;
-//            }
-//            tagBalance++;
-//        } else if (c == '>') {
-//            // leaving a tag
-//            tagBalance--;
-//            textStartPos = -1;
-//        } else if (tagBalance == 0 && textStartPos == -1) {
-//            // first char of text
-//            textStartPos = pos;
-//        }
-//    }
-//    
-//    // add remaining text - if any
-//    if (tagBalance == 0 && textStartPos != -1) {
-//        strippedBuf += buf.substring(textStartPos, pos);
-//    }
-    
-//    return strippedBuf;
 }
 
 FeedUpdateBroker.prototype.cancel = function() {
 	this.cancelled = true;
 	this.httpReq.abort();
-}
-
-function doEscapeLtGt(text){
-	var lt = "&lt;";
-	var gt = "&gt;";
-	return text.replace(/</g, lt).replace(/>/g, gt);
 }
