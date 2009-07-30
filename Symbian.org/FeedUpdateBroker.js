@@ -51,7 +51,8 @@ FeedUpdateBroker.prototype.readyStateChanged = function() {
 		var text = this.httpReq.responseText;
 		if ( isLoginPrompt (text) ) {
 			var self = this;
-			login(function(){self.doFetchFeed();});
+			setTimeout(self.doFetchFeed(), 100);
+//			login(function(){self.doFetchFeed();});
 			return;
 		}
 		

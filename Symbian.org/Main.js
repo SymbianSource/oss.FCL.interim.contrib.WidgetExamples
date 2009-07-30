@@ -51,7 +51,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc11";
+var myversion = "1.0rc13";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";
@@ -161,6 +161,7 @@ function init() {
 	// add bugzilla button
 	var bugzillaButton = new NavigationButton(3, "right.gif", "Bugzilla")
 	bugzillaButton.addEventListener("ActionPerformed", function(){login(function(){bugzilla.show();});});
+//	bugzillaButton.addEventListener("ActionPerformed", function(){bugzilla.show();});
 	home.addControl(bugzillaButton);
 	
 	// soft keys
@@ -235,7 +236,7 @@ function init() {
 
 	home.show();
 	setDefaultFontSizeForScreenSize();
-	login(null);	
+//	login(null);	
 }
 
 // Callback for when menu items are selected.
@@ -382,7 +383,7 @@ function setDefaultFontSizeForScreenSize(){
 			// no preference available, check screen size
 			if (window.screen.width > 400 || window.screen.height > 400) {
 				// hi res screen, use large font
-				setCssBodyFontSize(18);
+				setCssBodyFontSize(30);
 			}
 			else {
 				// lo res screen, use small font
@@ -406,7 +407,7 @@ function decreaseFontSize(){
 	}
 }
 
-function setCssBodyFontSize(size) {
+function setCssBodyFontSize(size){
     if (window.widget) {
 		currentFontSize = size;
 		var sizestring = "" + size;
