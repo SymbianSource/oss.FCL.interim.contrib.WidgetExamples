@@ -472,17 +472,35 @@ function bbcode2html(s) {
 
 function convertTag(tag, fulltag, tagContent) {
 	tag = tag.toLowerCase();
+	var param = null;
+	var eqsign = fulltag.indexOf("=");  // onclick=\"openURL('" + item.url + "');
+	if (eqsign > -1) {
+		param = fulltag.substring(eqsign+1);
+	}
 	switch(tag) {
+		case '*': return bbcode2html(tagContent);
 		case 'b':case 'i':case 'u':case 's':case 'sup':case 'sub':case 'h1':case 'h2':case 'h3':case 'h4':case 'h5':case 'h6':case 'table':case 'tr':case 'th':case 'td':
 		{
-			return '<' + tag + '>' + tagContent + "</" + tag + ">";
+			return '<' + tag + '>' + bbcode2html(tagContent) + "</" + tag + ">";
 		}
-		case 'quote': return '<blockquote><i>' + tagContent + '</i></blockquote>';
+		case 'font': return '<font face="'+param+'">' + bbcode2html(tagContent) + '</font>';
+		case 'size': return '<font size="'+param+'">' + bbcode2html(tagContent) + '</font>';
+		case 'color': return '<font color="'+param+'">' + bbcode2html(tagContent) + '</font>';
+		case 'left': return '<div align="left">' + bbcode2html(tagContent) + '</div>';
+		case 'right': return '<div align="right">' + bbcode2html(tagContent) + '</div>';
+		case 'center': return '<div align="center">' + bbcode2html(tagContent) + '</div>';
+		case 'list': return tagContent; // todo
+		case 'php': 
+		case 'code': return '<div class=codebox><code>' + tagContent + '</code></div>';
+		case 'html':{
+			var escaped = tagContent.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+			return '<div class=codebox><code>' + escaped + '</code></div>';
+		}
+		case 'quote': return '<div class=codebox><b>Quote:</b><br><i>' + tagContent + '</i></div>';
 		case 'url': {
-			var eqsign = fulltag.indexOf("=");  // onclick=\"openURL('" + item.url + "');
 			if ( eqsign > -1 ) {
 				return "<div class=\"FeedItemLink\"><a href=\"JavaScript:void(0)\" onclick=\"openURL( '"
-				+ fulltag.substring(eqsign+1)
+				+ param
 				+ "')\" ><i>"
 				+ tagContent
 				+ '</i></a></div>'; 

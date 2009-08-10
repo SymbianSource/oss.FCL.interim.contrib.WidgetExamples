@@ -51,3 +51,11 @@ table.bugzilla td {
 	border-color: gray gray gray gray;
 	background-color: white;
 }
+
+.codebox {
+    font: normal 12px Arial, sans-serif;
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+}
