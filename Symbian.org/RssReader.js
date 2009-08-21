@@ -54,6 +54,7 @@ RssReader.prototype.feedUpdateCompleted = function(event){
 			if (this.feedItemControls.length > 0 ) {
 				this.feedItemControls[0].setFocused(true);
 			}
+			this.feedPresenter.addFooterItems();
 		}
 		uiManager.hideNotification();
 	}

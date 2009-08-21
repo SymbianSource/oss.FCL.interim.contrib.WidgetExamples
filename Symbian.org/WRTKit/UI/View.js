@@ -112,6 +112,9 @@ View.prototype.setupSoftKeys = function()  {
 // show the view - sets up soft keys
 View.prototype.show = function () {
 	this.setupSoftKeys();
+	if (window.widget) {
+		widget.setNavigationEnabled(false);
+	}
 	this.update(false);
 	uiManager.setView(this);
 }

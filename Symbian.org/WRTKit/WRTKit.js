@@ -52,7 +52,7 @@ var WRTKIT_RESOURCE_DIRECTORY = "WRTKit/Resources/";
 includeScript("WRTKit/Utils/Logger.js");
 
 // Include UI visual definition.
-includeStyleSheet("WRTKit/Resources/UI.css");
+//includeStyleSheet("WRTKit/Resources/UI.css");  // included in index.html
 
 // Include all UI toolkit script files.
 var UI_NO_INIT_ID = "UI_NO_INIT_ID";
@@ -77,6 +77,7 @@ includeScript("WRTKit/UI/SelectionList.js");
 includeScript("WRTKit/UI/ActionControl.js");
 includeScript("WRTKit/UI/FormButton.js");
 includeScript("WRTKit/UI/NavigationButton.js");
+includeScript("WRTKit/UI/TextPane.js");
 includeScript("WRTKit/UI/TabView.js");
 includeScript("WRTKit/UI/Ajax.js");
 includeScript("WRTKit/UI/ImageLabel.js");

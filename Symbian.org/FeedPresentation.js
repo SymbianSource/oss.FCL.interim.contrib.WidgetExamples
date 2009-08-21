@@ -30,6 +30,10 @@ FeedPresenter.prototype.show = function(item){
 FeedPresenter.prototype.addPreambleItems = function(){
 }
 
+// Create and add controls to be shown before items list.
+FeedPresenter.prototype.addFooterItems = function(){
+}
+
 // No items returned, show "No messages"
 FeedPresenter.prototype.showNoItems = function(){
 	var label = new Label(null, null, "No messages");

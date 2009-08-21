@@ -24,7 +24,7 @@ var symbianOrgBaseUrl = "http://developer.symbian.org";
 var symbianOrgBaseUrlSsl = "https://developer.symbian.org";
 var registrationURL = symbianOrgBaseUrl + "/main/user_profile/register.php";
 var blogFeedName = "Symbian Blog";
-var blogFeedUrl = "http://blog.symbian.org/feed/";
+var blogFeedUrl = "http://blog.symbian.org/feed/rss/";
 
 // FORUM vars and settings 
 var symbianOrgNewThreadUrl = symbianOrgBaseUrl+"/forum/newthread.php?";
@@ -32,7 +32,7 @@ var symbianOrgNewReplyUrl = symbianOrgBaseUrl+"/forum/newreply.php?";
 var symbianOrgLoginUrl = symbianOrgBaseUrlSsl+"/main/user_profile/login.php";
 var symbianOrgLoginUsernameField = "username";
 var symbianOrgLoginPasswordField = "password";
-var forumUsername = null	;
+var forumUsername = null;
 var forumPassword = null;
 
 // Feed name, URL etc for forums
@@ -51,7 +51,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc14";
+var myversion = "1.0rc16";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";
@@ -76,13 +76,13 @@ var forumUsernameControl;
 var forumPasswordControl;
 
 // Constants for menu item identifiers.
-var MENU_ITEM_SETTINGS = 0;
-var MENU_ITEM_REFRESH = 1;
-var MENU_ITEM_ABOUT = 2;
-var MENU_ITEM_CHECK_UPDATE = 3;
-var MENU_ITEM_LARGER_FONT = 4;
-var MENU_ITEM_SMALLER_FONT = 5;
-
+var MENU_ITEM_HOME = 0;
+var MENU_ITEM_SETTINGS = 1;
+var MENU_ITEM_REFRESH = 2;
+var MENU_ITEM_ABOUT = 3;
+var MENU_ITEM_CHECK_UPDATE = 4;
+var MENU_ITEM_LARGER_FONT = 5;
+var MENU_ITEM_SMALLER_FONT = 6;
 // Flag indicating weather the web site login has been initiated
 var loginInitiated = false;
 var loginInitiatedCallback = null;
@@ -102,7 +102,6 @@ var aboutText = "<strong>Symbian.org "+myversion+"</strong><br>"
 
 var currentFontSize = 14;
 
-
 // Called from the onload event handler to initialize the widget.
 function init() {
 	
@@ -112,6 +111,9 @@ function init() {
         widget.setNavigationEnabled(false);
         window.menu.showSoftkeys();
         // create menu
+        var homeMenuItem = new MenuItem("Home", MENU_ITEM_HOME);
+        homeMenuItem.onSelect = menuItemSelected;
+        menu.append(homeMenuItem);
         var refreshMenuItem = new MenuItem("Refresh", MENU_ITEM_REFRESH);
         refreshMenuItem.onSelect = menuItemSelected;
         menu.append(refreshMenuItem);
@@ -121,10 +123,10 @@ function init() {
 		var updateMenuItem = new MenuItem("Check for updates", MENU_ITEM_CHECK_UPDATE);
 		updateMenuItem.onSelect = menuItemSelected;
 		menu.append(updateMenuItem);
-		var largerFontMenuItem = new MenuItem("Larger font", MENU_ITEM_LARGER_FONT);
+		var largerFontMenuItem = new MenuItem("Large font", MENU_ITEM_LARGER_FONT);
 		largerFontMenuItem.onSelect = menuItemSelected;
 		menu.append(largerFontMenuItem);
-		var smallerFontMenuItem = new MenuItem("Smaller font", MENU_ITEM_SMALLER_FONT);
+		var smallerFontMenuItem = new MenuItem("Small font", MENU_ITEM_SMALLER_FONT);
 		smallerFontMenuItem.onSelect = menuItemSelected;
 		menu.append(smallerFontMenuItem);
 		var aboutMenuItem = new MenuItem("About", MENU_ITEM_ABOUT);
@@ -175,7 +177,7 @@ function init() {
 	blog = new RssReader(blogFeedName, blogFeedUrl, null, home, null);
 	
 	// create wiki screen
-	wiki = new RssReader(wikiFeedName, wikiFeedUrl, new ButtonFeedPresenter(null), home, null);
+	wiki = new WikiHome(home);// new RssReader(wikiFeedName, wikiFeedUrl, new ButtonFeedPresenter(null), home, null);
 	
 	// wiki feed contains full article text for many articles 
 	// this takes up a _lot_ of memory. Also we don't 
@@ -236,7 +238,6 @@ function init() {
 
 	home.show();
 	setDefaultFontSizeForScreenSize();
-//	login(null);	
 }
 
 // Callback for when menu items are selected.
@@ -252,14 +253,20 @@ function menuItemSelected(id) {
 			uiManager.hideNotification();
             settings.show();
             break;
+		case MENU_ITEM_HOME:
+			currentView = home;
+			home.show();
+			break;
         case MENU_ITEM_REFRESH:
             currentView.update(true);
             break;
         case MENU_ITEM_LARGER_FONT:
-            increaseFontSize();
+			setLargeView();
+//            increaseFontSize();
             break;
         case MENU_ITEM_SMALLER_FONT:
-            decreaseFontSize();
+			setSmallView();
+//            decreaseFontSize();
             break;
         case MENU_ITEM_CHECK_UPDATE:
             checkForUpdates();
@@ -375,22 +382,32 @@ function createCaption(caption) {
 function setDefaultFontSizeForScreenSize(){
 	// first check if there is a preference present
     if (window.widget) {
-		var saved = widget.preferenceForKey("fontsize");
-		if ( widget.preferenceForKey("fontsize") ) {
-			setCssBodyFontSize(parseInt(saved));
-		}
-		else {
+//		var saved = widget.preferenceForKey("fontsize");
+//		if ( widget.preferenceForKey("fontsize") ) {
+//			setCssBodyFontSize(parseInt(saved));
+//		}
+//		else {
 			// no preference available, check screen size
 			if (window.screen.width > 400 || window.screen.height > 400) {
 				// hi res screen, use large font
-				setCssBodyFontSize(30);
+				setLargeView();
 			}
 			else {
 				// lo res screen, use small font
-				setCssBodyFontSize(14);
+				setSmallView();
 			}
-		}
+//		}
 	}
+}
+
+function setLargeView(){
+	document.getElementById('stylesheet').href = 'WRTKit/Resources/UI-large.css';
+//	setCssBodyFontSize(22);
+}
+
+function setSmallView(){
+	document.getElementById('stylesheet').href = 'WRTKit/Resources/UI.css';
+//	setCssBodyFontSize(14);
 }
 
 function increaseFontSize(){
@@ -422,6 +439,6 @@ function nocache(url) {
     } else {
         url += "&";
     }
-    url += "nocache=" + (new Date().getTime());
+    url += "xnocache=" + (new Date().getTime());
 	return url;
 }

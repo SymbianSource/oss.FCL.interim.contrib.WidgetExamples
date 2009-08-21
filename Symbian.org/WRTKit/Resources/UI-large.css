@@ -61,7 +61,7 @@ tfoot, thead, tr, th, td {
 body {
     margin: 0px;
     background: url("DocumentBackground.png") repeat;  /* repeat-x fixed; */
-    font: normal 14px Arial, sans-serif;
+    font: normal 24px Arial, sans-serif;
     color: rgb(0,0,0);
 }
 
@@ -152,7 +152,7 @@ a:hover {
 
 /* Rules for the list view caption text */
 .ListViewCaptionText {
-    font-size: 1.2em;
+    font-size: 1.1em;  
     font-weight: bold;
     padding: 7px 0px 0px 11px;
 }
@@ -168,13 +168,14 @@ a:hover {
 
 /* Rules for control root element (rootElement) */
 .Control {
-
+	min-height: 60;
 }
 
 /* Control assembly rules (assemblyElement) */
 .ControlAssembly {
     background: url("ControlAssemblyBackground.png") repeat-x;
     padding: 1px 5px;
+	min-height: 60;
 }
 
 /* Control assembly in normal state */
@@ -334,15 +335,15 @@ a:hover {
 /* Rules for form button left cell (td) */
 .FormButtonLeftCell {
     width: 8px;
-    height: 26px;
-    background: url("FormButtonLeft.png") no-repeat;
+    height: 60px;
+    background: url("FormButtonLeftLarge.png") no-repeat;
     padding: 0px;
 }
 
 /* Rules for form button center cell (td) */
 .FormButtonCenterCell {
-    height: 26px;
-    background: url("FormButtonCenter.png") repeat-x;
+    height: 60px;
+    background: url("FormButtonCenterLarge.png") repeat-x;
     padding: 0px;
     vertical-align: middle;
     text-align: center;
@@ -351,8 +352,8 @@ a:hover {
 /* Rules for form button right cell (td) */
 .FormButtonRightCell {
     width: 8px;
-    height: 26px;
-    background: url("FormButtonRight.png") no-repeat;
+    height: 60px;
+    background: url("FormButtonRightLarge.png") no-repeat;
     padding: 0px;
 }
 
@@ -363,17 +364,17 @@ a:hover {
 
 /* Rules for form button left cell in focused state (td) */
 .FormButtonLeftCellFocus {
-    background-position: 0px -50px;
+    background-position: 0px -120px;
 }
 
 /* Rules for form button left cell in hover state (td) */
 .FormButtonLeftCellHover {
-    background-position: 0px -100px;
+    background-position: 0px -240px;
 }
 
 /* Rules for form button left cell in disabled state (td) */
 .FormButtonLeftCellDisabled {
-    background-position: 0px -150px;
+    background-position: 0px -360px;
 }
 
 /* Rules for form button center cell in normal state (td) */
@@ -383,17 +384,17 @@ a:hover {
 
 /* Rules for form button center cell in focused state (td) */
 .FormButtonCenterCellFocus {
-    background-position: 0px -50px;
+    background-position: 0px -120px;
 }
 
 /* Rules for form button center cell in hover state (td) */
 .FormButtonCenterCellHover {
-    background-position: 0px -100px;
+    background-position: 0px -240px;
 }
 
 /* Rules for form button center cell in disabled state (td) */
 .FormButtonCenterCellDisabled {
-    background-position: 0px -150px;
+    background-position: 0px -360px;
 }
 
 /* Rules for form button left cell in normal state (td) */
@@ -403,17 +404,17 @@ a:hover {
 
 /* Rules for form button left cell in focused state (td) */
 .FormButtonRightCellFocus {
-    background-position: 0px -50px;
+    background-position: 0px -120px;
 }
 
 /* Rules for form button left cell in hover state (td) */
 .FormButtonRightCellHover {
-    background-position: 0px -100px;
+    background-position: 0px -240px;
 }
 
 /* Rules for form button left cell in disabled state (td) */
 .FormButtonRightCellDisabled {
-    background-position: 0px -150px;
+    background-position: 0px -360px;
 }
 
 /* Rules for form button text */
@@ -516,6 +517,7 @@ a:hover {
 /* Rules for textField */
 .TextField {
     width: 100%;
+	min-height: 50px;
     border: 1px solid rgb(0,0,0);
     background: rgb(255,255,255);
     margin: 0px 0px 3px 0px;
@@ -651,6 +653,7 @@ a:hover {
 
 /* Rules for SelectionMenu option elements */
 .SelectionMenuOption {
+	min-height: 60;
     background: rgb(255,255,255);
 }
 
@@ -708,44 +711,44 @@ a:hover {
 .SelectionListOptionSingle {
     padding-left: 19px;
     background: url("RadioButton.png") no-repeat;
-    height: 25px;
+    min-height: 50px;
 }
 
 /* SelectionList option element in single selection mode, unchecked normal state */
 .SelectionListOptionSingleUncheckedNormal {
-    background-position: 0px 0px;
+    background-position: 0px 10px;
 }
 
 /* SelectionList option element in single selection mode, unchecked focus state */
 .SelectionListOptionSingleUncheckedFocus {
-    background-position: 0px -50px;
+    background-position: 0px -40px;
 }
 
 /* SelectionList option element in single selection mode, unchecked diabled state */
 .SelectionListOptionSingleUncheckedDisabled {
-    background-position: 0px -100px;
+    background-position: 0px -90px;
 }
 
 /* SelectionList option element in single selection mode, checked normal state */
 .SelectionListOptionSingleCheckedNormal {
-    background-position: 0px -150px;
+    background-position: 0px -140px;
 }
 
 /* SelectionList option element in single selection mode, checked focus state */
 .SelectionListOptionSingleCheckedFocus {
-    background-position: 0px -200px;
+    background-position: 0px -190px;
 }
 
 /* SelectionList option element in single selection mode, checked diabled state */
 .SelectionListOptionSingleCheckedDisabled {
-    background-position: 0px -250px;
+    background-position: 0px -240px;
 }
 
 /* SelectionList option element in multi selection mode */
 .SelectionListOptionMulti {
     padding-left: 19px;
     background: url("CheckBox.png") no-repeat;
-    height: 25px;
+    min-height: 50px;
 }
 
 /* SelectionList option element in multi selection mode, unchecked normal state */

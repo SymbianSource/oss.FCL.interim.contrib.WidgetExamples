@@ -489,12 +489,15 @@ function convertTag(tag, fulltag, tagContent) {
 		case 'left': return '<div align="left">' + bbcode2html(tagContent) + '</div>';
 		case 'right': return '<div align="right">' + bbcode2html(tagContent) + '</div>';
 		case 'center': return '<div align="center">' + bbcode2html(tagContent) + '</div>';
-		case 'list': return tagContent; // todo
+		case 'list':{
+			tagContent = tagContent.replace(/\[\*\]/g, "<br>&bull; ");
+			return bbcode2html(tagContent); // todo
+		}
 		case 'php': 
-		case 'code': return '<div class=codebox><code>' + tagContent + '</code></div>';
+		case 'code': 
 		case 'html':{
 			var escaped = tagContent.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-			return '<div class=codebox><code>' + escaped + '</code></div>';
+			return '<div class=codebox><pre>' + escaped + '</pre></div>';
 		}
 		case 'quote': return '<div class=codebox><b>Quote:</b><br><i>' + tagContent + '</i></div>';
 		case 'url': {
