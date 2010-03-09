@@ -1,0 +1,55 @@
+Welcome to <i><strong>Wikipedia Reader For Symbian</strong></i> help.
+<p>&nbsp;</p>
+<h2>Navigation</h2>
+Navigation depends on the context, but can be summarised as follows:
+<ul>
+	<li>Right soft key always shows the previous view</li>
+	<li>Browsing history can be accessed from the right soft key menu</li>
+	<li>When viewing articles, clicking an article link opens the article</li>
+	<li>Search results are shown in pages; links to previous/next result pages are available at the bottom of every search result view.</li>
+</ul>
+<h2>Searching</h2>
+Just type the article name and click search!
+<h2>Bookmarks</h2>
+Bookmarks view can be opened by selecting "Bookmarks" from the right soft key menu.
+<h3>Adding a bookmark</h3>
+Bookmark can be added when viewing an article. 
+To add a bookmark, select "Add bookmark" from the right soft key menu.
+<h3>Clearing bookmarks</h3>
+To clear bookmarks, open the bookmarks view and select "Clear" from the right soft key menu.
+
+<h2>History</h2>
+History view can be opened by selecting "History" from the right soft key menu.
+<h3>Clearing history</h3>
+To clear history, open the history view and select "Clear" from the right soft key menu.
+
+<h2>Tips</h2>
+<ul>
+	<li>In any page, click on the title bar takes you back to search view</li>
+	<li>While reading articles, click on the content area collapses current section</li>
+</ul>
+
+<h2>About</h2>
+Wikipedia Widget was developed by Ivan Litovski in response to 
+<a href="javascript:void()" onclick="openUrl('http://ideas.symbian.org/Idea/View?ideaid=2091');">Tim Holbrow's post</a> on 
+<a href="javascript:void()" onclick="openUrl('http://ideas.symbian.org')">ideas.symbian.org</a>.
+<p>
+Wikipedia Widget source is available inside the widget archive. The WGZ file is in fact a ZIP so 
+it can be easily extracted, changed and re-packed. 
+
+<h2>Licenses</h2>
+
+<h3>Wikipedia name and logo</h3>
+Wikipedia is a registered trademark of the 
+<a href="javascript:void()" onclick="openUrl('http://wikimediafoundation.org');">Wikimedia Foundation, Inc.</a>, a non-profit organization.
+<p>
+<h3>Wikipedia content</h3>
+Wikipedia content is available under the <a href="javascript:void()" onclick="openUrl('http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License');">Creative Commons Attribution-ShareAlike License</a>; additional terms may apply. 
+See <a href="javascript:void()" onclick="openUrl('http://wikimediafoundation.org/wiki/Terms_of_Use');">Terms of Use</a> for details.
+<p>
+<h3>Widget source</h3>
+Most Wikipedia Widget source is in the <a href="javascript:void()" onclick="wikiBrowse('Public domain');">public domain</a>. Exception are several source files 
+derived from Nokia WRT. Please refer to source code for details.
+<p>
+<h3>Graphics</h3>
+The title-bar and home-screen graphic has been derived from <a href="javascript:void()" onclick="openUrl('http://www.bittbox.com/freebies/free-vector-glass-header-designs-fancy');">Jay Hilgert's Fancy Glass Headers</a>.

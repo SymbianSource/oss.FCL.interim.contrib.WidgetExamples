@@ -1,0 +1,128 @@
+/* Feed item date */
+.FeedItemDate {
+    font-style: italic;
+}
+
+/* Feed item text */
+.FeedItemDescription {
+    padding: 4px 0px;
+}
+
+/* Feed item links */
+.FeedItemLink {
+    font-weight: bold;
+}
+
+/* Anchor tags in the context of a feed item link */
+.FeedItemLink a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+/* Focused anchor tags */
+.FeedItemLink a:focus {
+    background: rgb(253,200,47);
+    color: rgb(0,0,0);
+}
+
+
+/* Flatten the main page table layout */
+table.layout,
+table.layout tbody,
+table.layout tr,
+table.layout th,
+table.layout td,
+table.gallery,
+table.gallery tbody,
+table.gallery tr,
+table.gallery th,
+table.gallery td,
+#mp-topbanner,
+#mp-topbanner tbody,
+#mp-topbanner tr,
+#mp-topbanner th,
+#mp-topbanner td,
+#mp-upper,
+#mp-upper tbody,
+#mp-upper tr,
+#mp-upper th,
+#mp-upper td,
+#mp-tfp,
+#mp-tfp tbody,
+#mp-tfp tr,
+#mp-tfp th,
+#mp-tfp td {
+  display: block ;
+  width: 92% ;
+}
+
+
+table.wikitable {
+	width: 92%;
+}
+table.wikitable,
+table.wikitable tbody,
+table.wikitable tr,
+table.wikitable th,
+table.wikitable td {
+	border-bottom:1px solid #AAAAAA;
+	border-collapse:collapse;
+	border-spacing:1px;
+	border-top:1px solid #AAAAAA;
+	clear:both;
+	font-size:90%;
+	margin-bottom:2px;
+}
+
+table.wikitable th {
+	font-weight: bold;	
+}
+
+.codebox {
+    font: normal 12px Arial, sans-serif;
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+}
+
+table.infobox {
+  display: block ;
+  width: 95%;
+  clear:both;
+}
+
+.templatequote {
+	font-style: italic;
+	font-size: 90%;	
+}
+
+.internal {
+	display: none;	
+}
+
+
+#minidiv {
+	margin:0px 0px; 
+	padding: 0px 0px; 
+	overflow:hidden;
+	background: url("WRTKit/Resources/title.png") no-repeat left top;
+}
+
+.box{
+	display: block;
+	clear: both;
+	width: 92%;
+}
+
+.vertical-navbox{
+	display: block;
+	clear: both;
+	width: 92%;
+}
+	
+	
+#wrtnavimg {
+	width: auto;
+}

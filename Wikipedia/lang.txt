@@ -1,0 +1,299 @@
+<img src="warning.png" align=center> <strong>Beta functionality notice</strong><p>
+
+Support for reading articles in languages other than English is experimental. Known issues are:<p>
+<ul>
+<li>Application menus and navigation buttons are not localised for all languges.</li>
+<li>Some scripts and particularly article titles may not display correctly.</li>
+<li>Search may not produce language-specific search results for all languages.</li>
+</ul>
+
+<h2>100,000+ articles</h2>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ar.wikipedia.org/");' lang="ar" dir="rtl" title="Al-ʿArabīyah">العربية</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ca.wikipedia.org/");' lang="ca">Català</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cs.wikipedia.org/");' lang="cs">Česky</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://da.wikipedia.org/");' lang="da">Dansk</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://de.wikipedia.org/");' lang="de">Deutsch</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://en.wikipedia.org/");' lang="en">English</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://es.wikipedia.org/");' lang="es">Español</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://eo.wikipedia.org/");' lang="eo">Esperanto</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fr.wikipedia.org/");' lang="fr">Français</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ko.wikipedia.org/");' lang="ko" title="Hangugeo">한국어</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://id.wikipedia.org/");' lang="id">Bahasa Indonesia</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://it.wikipedia.org/");' lang="it">Italiano</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://he.wikipedia.org/");' lang="he" dir="rtl" title="‘Ivrit">עברית</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lt.wikipedia.org/");' lang="lt">Lietuvių</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hu.wikipedia.org/");' lang="hu">Magyar</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nl.wikipedia.org/");' lang="nl">Nederlands</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ja.wikipedia.org/");' lang="ja" title="Nihongo">日本語</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://no.wikipedia.org/");' lang="nb">Norsk (bokmål)</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pl.wikipedia.org/");' lang="pl">Polski</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pt.wikipedia.org/");' lang="pt">Português</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ru.wikipedia.org/");' lang="ru" title="Russkiy">Русский</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ro.wikipedia.org/");' lang="ro">Română</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sk.wikipedia.org/");' lang="sk">Slovenčina</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sr.wikipedia.org/");' lang="sr"><span lang="sr-Cyrl">Српски</span> / <span lang="sr-Latn">Srpski</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fi.wikipedia.org/");' lang="fi">Suomi</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sv.wikipedia.org/");' lang="sv">Svenska</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tr.wikipedia.org/");' lang="tr">Türkçe</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://uk.wikipedia.org/");' lang="uk" title="Ukrayins’ka">Українська</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://vi.wikipedia.org/");' lang="vi">Tiếng Việt</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://vo.wikipedia.org/");' lang="vo">Volapük</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zh.wikipedia.org/wiki/");' lang="zh" id="zhwiki" title="Zhōngwén">中文</a>
+
+
+<h2>10,000+ articles</h2>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://af.wikipedia.org/");' lang="af">Afrikaans</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://an.wikipedia.org/");' lang="an">Aragonés</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ast.wikipedia.org/");' lang="ast">Asturianu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ht.wikipedia.org/");' lang="ht">Kreyòl Ayisyen</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://az.wikipedia.org/");' lang="az"><span lang="az-Latn">Azərbaycan</span> / <span lang="az-Arab" dir="rtl">آذربايجان ديلی</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bn.wikipedia.org/");' lang="bn" title="Bangla">বাংলা</a>
+<span lang="be" title="Belaruskaya">Беларуская (
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://be.wikipedia.org/")' title="Akademichnaya">Акадэмічная</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://be-x-old.wikipedia.org/")' title="Taraškievica">Тарашкевiца</a>)</span>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bpy.wikipedia.org/");' lang="bpy" title="Bishnupriya Manipuri">বিষ্ণুপ্রিযা় মণিপুরী</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bs.wikipedia.org/");' lang="bs">Bosanski</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://br.wikipedia.org/");' lang="br">Brezhoneg</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bg.wikipedia.org/");' lang="bg" title="Bulgarski">Български</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cv.wikipedia.org/");' lang="cv" title="Çuvaş">Чăваш</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cy.wikipedia.org/");' lang="cy">Cymraeg</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://et.wikipedia.org/");' lang="et">Eesti</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://el.wikipedia.org/");' lang="el" title="Ellīniká">Ελληνικά</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://eu.wikipedia.org/");' lang="eu">Euskara</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fa.wikipedia.org/");' lang="fa" dir="rtl" title="Fārsī">فارسی</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fy.wikipedia.org/");' lang="fy">Frysk</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gl.wikipedia.org/");' lang="gl">Galego</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gu.wikipedia.org/");' lang="gu" title="Gujarati">ગુજરાતી</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hi.wikipedia.org/");' lang="hi" title="Hindī">हिन्दी</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hr.wikipedia.org/");' lang="hr">Hrvatski</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://io.wikipedia.org/");' lang="io">Ido</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://is.wikipedia.org/");' lang="is">Íslenska</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://jv.wikipedia.org/");' lang="jv">Basa Jawa</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ka.wikipedia.org/");' lang="ka" title="Kartuli">ქართული</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ku.wikipedia.org/");' lang="ku"><span lang="ku-Latn">Kurdî</span> / <span lang="ku-Arab" dir="rtl">كوردی</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://la.wikipedia.org/");' lang="la">Latina</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lv.wikipedia.org/");' lang="lv">Latviešu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lb.wikipedia.org/");' lang="lb">Lëtzebuergesch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mk.wikipedia.org/");' lang="mk" title="Makedonski">Македонски</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ml.wikipedia.org/");' lang="ml" title="Malayalam">മലയാളം</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mr.wikipedia.org/");' lang="mr" title="Marathi">मराठी</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ms.wikipedia.org/");' lang="ms">Bahasa Melayu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://new.wikipedia.org/");' lang="new" title="Nepal Bhasa">नेपाल भाषा</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nn.wikipedia.org/");' lang="nn">Norsk (nynorsk)</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nap.wikipedia.org/");' lang="nap">Nnapulitano</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://oc.wikipedia.org/");' lang="oc">Occitan</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pms.wikipedia.org/");' lang="pms">Piemontèis</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nds.wikipedia.org/");' lang="nds">Plattdüütsch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ksh.wikipedia.org/");' lang="ksh">Ripoarisch</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://qu.wikipedia.org/");' lang="qu">Runa Simi</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sq.wikipedia.org/");' lang="sq">Shqip</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://scn.wikipedia.org/");' lang="scn">Sicilianu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://simple.wikipedia.org/");' lang="en">Simple English</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ceb.wikipedia.org/");' lang="ceb">Sinugboanon</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sl.wikipedia.org/");' lang="sl">Slovenščina</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sh.wikipedia.org/");' lang="sh"><span lang="sh-Latn">Srpskohrvatski</span> / <span lang="sh-Cyrl">Српскохрватски</span></a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://su.wikipedia.org/");' lang="su">Basa Sunda</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sw.wikipedia.org/");' lang="sw">Kiswahili</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tl.wikipedia.org/");' lang="tl">Tagalog</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ta.wikipedia.org/");' lang="ta" title="Tamiḻ">தமிழ்</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://te.wikipedia.org/");' lang="te" title="Telugu">తెలుగు</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://th.wikipedia.org/");' lang="th" title="Thai">ไทย</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ur.wikipedia.org/");' lang="ur" dir="rtl" title="Urdu">اردو</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://wa.wikipedia.org/");' lang="wa">Walon</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://war.wikipedia.org/");' lang="war">Winaray</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zh-yue.wikipedia.org/");' lang="yue" title="Yuet6yue5">粵語</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bat-smg.wikipedia.org/");' lang="bat-x-smg">Žemaitėška</a>
+
+<h2>1,000+ articles</h2>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ace.wikipedia.org/");' lang="ace">Bahsa Acèh</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://als.wikipedia.org/");' lang="gsw">Alemannisch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://am.wikipedia.org/");' lang="am" title="Āmariññā">አማርኛ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://roa-rup.wikipedia.org/");' lang="rup">Armãneashce</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://frp.wikipedia.org/");' lang="frp">Arpitan</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://arc.wikipedia.org/");' lang="arc" title="Ātûrāyâ">ܐܬܘܪܝܐ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gn.wikipedia.org/");' lang="gn">Avañe’ẽ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zh-min-nan.wikipedia.org/");' lang="nan">Bân-lâm-gú</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://map-bms.wikipedia.org/");' lang="map-x-bms">Basa Banyumasan</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bh.wikipedia.org/");' lang="bh" title="Bhōjapurī">भोजपुरी</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bcl.wikipedia.org/");' lang="bcl">Bikol Central</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bar.wikipedia.org/");' lang="bar">Boarisch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bo.wikipedia.org/");' lang="bo" title="Bod Skad">བོད་ཡིག</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://co.wikipedia.org/");' lang="co">Corsu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pdc.wikipedia.org/");' lang="pdc">Deitsch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://dv.wikipedia.org/");' lang="dv" dir="rtl" title="Dhivehi">ދިވެހި</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nv.wikipedia.org/");' lang="nv">Diné Bizaad</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ang.wikipedia.org/");' lang="ang">Eald Englisc</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://myv.wikipedia.org/");' lang="myv" title="Erzjanj">Эрзянь</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ext.wikipedia.org/");' lang="ext">Estremeñu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hif.wikipedia.org/");' lang="hif">Fiji Hindi</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fo.wikipedia.org/");' lang="fo">Føroyskt</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fur.wikipedia.org/");' lang="fur">Furlan</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ga.wikipedia.org/");' lang="ga">Gaeilge</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gv.wikipedia.org/");' lang="gv">Gaelg</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gd.wikipedia.org/");' lang="gd">Gàidhlig</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://gan.wikipedia.org/");' lang="gan" title="Gànyŭ">贛語</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://glk.wikipedia.org/");' lang="glk" dir="rtl" title="Giləki">گیلکی</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zh-classical.wikipedia.org/");' lang="lzh" title="Man4jin4 / Wényán">文言</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hak.wikipedia.org/");' lang="hak"><span lang="hak-Latn">Hak-kâ-fa</span> / <span lang="hak-Hani">客家話</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://haw.wikipedia.org/");' lang="haw">ʻŌlelo Hawaiʻi</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hy.wikipedia.org/");' lang="hy" title="Hayeren">Հայերեն</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://hsb.wikipedia.org/");' lang="hsb">Hornjoserbsce</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ilo.wikipedia.org/");' lang="ilo">Ilokano</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ia.wikipedia.org/");' lang="ia">Interlingua</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ie.wikipedia.org/");' lang="ie">Interlingue</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://os.wikipedia.org/");' lang="os" title="Iron Avžag">Ирон Æвзаг</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kn.wikipedia.org/");' lang="kn" title="Kannada">ಕನ್ನಡ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pam.wikipedia.org/");' lang="pam">Kapampangan</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://csb.wikipedia.org/");' lang="csb">Kaszëbsczi</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kw.wikipedia.org/");' lang="kw">Kernewek</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://km.wikipedia.org/");' lang="km" title="Phéasa Khmér">ភាសាខ្មែរ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kv.wikipedia.org/");' lang="kv" title="Komi">Коми</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ky.wikipedia.org/");' lang="ky" title="Kyrgyzča">Кыргызча</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lad.wikipedia.org/");' lang="lad"><span lang="lad-Latn">Ladino</span> / <span lang="lad-Hebr" dir="rtl">לאדינו</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lij.wikipedia.org/");' lang="lij">Ligure</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://li.wikipedia.org/");' lang="li">Limburgs</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ln.wikipedia.org/");' lang="ln">Lingála</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://jbo.wikipedia.org/");' lang="jbo">lojban</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lmo.wikipedia.org/");' lang="lmo">Lumbaart</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mg.wikipedia.org/");' lang="mg">Malagasy</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mt.wikipedia.org/");' lang="mt">Malti</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mi.wikipedia.org/");' lang="mi">Māori</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://arz.wikipedia.org/");' lang="arz" title="Maṣrī">مصرى</a><!-- (teh other one ;) -->
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mzn.wikipedia.org/");' lang="mzn"><span lang="mzn-Arab" dir="rtl">مازِرونی</span> / <span lang="mzn-Latn">Mäzeruni</span></a><!-- watch the behaviour of this pair re rtl vs ltr -->
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mn.wikipedia.org/");' lang="mn" title="Mongol">Монгол</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://my.wikipedia.org/");' lang="my" title="Myanmasa">ဗမာစာ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nah.wikipedia.org/");' lang="nah">Nāhuatlahtōlli</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nds-nl.wikipedia.org/");' lang="nds-nl">Nedersaksisch</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ne.wikipedia.org/");' lang="ne" title="Nepālī">नेपाली</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nrm.wikipedia.org/");' lang="roa-x-nrm">Nouormand</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://nov.wikipedia.org/");' lang="nov">Novial</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mhr.wikipedia.org/");' lang="mhr" title="Olyk Marij">Олык Марий</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://uz.wikipedia.org/");' lang="uz">O‘zbek</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pi.wikipedia.org/");' lang="pi" title="Pāḷi">पाऴि</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pag.wikipedia.org/");' lang="pag">Pangasinán</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pa.wikipedia.org/");' lang="pa" title="Pañjābī"><span lang="pa">ਪੰਜਾਬੀ</span> / <span lang="pa-Arab" dir="rtl">پنجابی</span></a><!-- watch the behaviour of this pair re rtl vs ltr -->
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ps.wikipedia.org/");' lang="ps" dir="rtl" title="Paʂto">پښتو</a><!-- (teh other one ;) -->
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kk.wikipedia.org/");' lang="kk" title="Qazaqşa">Қазақша</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://crh.wikipedia.org/");' lang="crh">Qırımtatarca</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://rm.wikipedia.org/");' lang="rm">Rumantsch</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sa.wikipedia.org/");' lang="sa" title="Saṃskṛtam">संस्कृतम्</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://se.wikipedia.org/");' lang="se">Sámegiella</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sc.wikipedia.org/");' lang="sc">Sardu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sah.wikipedia.org/");' lang="sah" title="Saxa Tyla">Саха Тыла</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sco.wikipedia.org/");' lang="sco">Scots</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://stq.wikipedia.org/");' lang="stq">Seeltersk</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pnb.wikipedia.org/");' lang="pnb" dir="rtl" title="Shāhmukhī Pañjābī">شاہ مکھی پنجابی</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://si.wikipedia.org/");' lang="si" title="Siṃhala">සිංහල</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://szl.wikipedia.org/");' lang="szl">Ślůnski</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://roa-tara.wikipedia.org/");' lang="roa">Tarandíne</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tt.wikipedia.org/");' lang="tt"><span lang="tt-Cyrl">Татарча</span> / <span lang="tt-Latn">Tatarça</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tg.wikipedia.org/");' lang="tg" title="Tojikī">Тоҷикӣ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://to.wikipedia.org/");' lang="to">Lea faka-Tonga</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tk.wikipedia.org/");' lang="tk">Türkmen</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ug.wikipedia.org/");' lang="ug"><span lang="ug-Latn">Uyghur</span> / <span lang="ug-Arab" dir="rtl">ئۇيغۇرچه</span></a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://vec.wikipedia.org/");' lang="vec">Vèneto</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fiu-vro.wikipedia.org/");' lang="vro">Võro</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://vls.wikipedia.org/");' lang="vls">West-Vlams</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://wo.wikipedia.org/");' lang="wo">Wolof</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://wuu.wikipedia.org/");' lang="wuu" title="Wú Yǔ">吴语</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://yi.wikipedia.org/");' lang="yi" dir="rtl" title="Yidiš">ייִדיש</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://yo.wikipedia.org/");' lang="yo">Yorùbá</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://diq.wikipedia.org/");' lang="diq">Zazaki</a>
+
+<h2>100+ articles</h2>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ab.wikipedia.org/");' lang="ab" title="Aṗsua">Аҧсуа</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://av.wikipedia.org/");' lang="av" title="Avar">Авар</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ay.wikipedia.org/");' lang="ay">Aymara</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bm.wikipedia.org/");' lang="bm">Bamanankan</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ba.wikipedia.org/");' lang="ba" title="Bašqort">Башҡорт</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bi.wikipedia.org/");' lang="bi">Bislama</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bxr.wikipedia.org/");' lang="bxr" title="Buryat">Буряад</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ch.wikipedia.org/");' lang="ch">Chamoru</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cbk-zam.wikipedia.org/");' lang="cbk-x-zam">Chavacano de Zamboanga</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://za.wikipedia.org/");' lang="za">Cuengh</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://dsb.wikipedia.org/");' lang="dsb">Dolnoserbski</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://eml.wikipedia.org/");' lang="roa-x-eml">Emigliàn-Rumagnòl</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ee.wikipedia.org/");' lang="ee">Eʋegbe</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ki.wikipedia.org/");' lang="ki">Gĩkũyũ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://got.wikipedia.org/");' lang="got" title="Gutisk">𐌲𐌿𐍄𐌹𐍃𐌺</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://xal.wikipedia.org/");' lang="xal" title="Halʹmg">Хальмг</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ha.wikipedia.org/");' lang="ha"><span lang="ha-Latn">Hausa</span> / <span lang="ha-Arab" dir="rtl">هَوُسَا</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ig.wikipedia.org/");' lang="ig">Igbo</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://iu.wikipedia.org/");' lang="iu" title="Inuktitut"><span lang="iu-Cans">ᐃᓄᒃᑎᑐᑦ</span> / <span lang="iu-Latn">Inuktitut</span></a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ik.wikipedia.org/");' lang="ik">Iñupiak</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kl.wikipedia.org/");' lang="kl">Kalaallisut</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ks.wikipedia.org/");' lang="ks" title="Kashmiri"><span lang="ks-Deva">कश्मीरी</span> / <span lang="ks-Arab" dir="rtl">كشميري</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kg.wikipedia.org/");' lang="kg">Kongo</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://lo.wikipedia.org/ໜ້າຫຼັກ");' lang="lo" title="Phaasaa Laao">ພາສາລາວ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cdo.wikipedia.org/");' lang="cdo">Mìng-dĕ̤ng-ngṳ̄</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mwl.wikipedia.org/");' lang="mwl">Mirandés</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mdf.wikipedia.org/");' lang="mdf" title="Mokshanj">Мокшень</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://mo.wikipedia.org/");' lang="ro-Cyrl" title="Moldovenească">Молдовеняскэ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://na.wikipedia.org/");' lang="na">Dorerin&nbsp;Naoero</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cr.wikipedia.org/");' lang="cr"><span lang="cr-Latn">Nēhiyawēwin</span> / <span lang="cr-Cans">ᓀᐦᐃᔭᐍᐏᐣ</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pih.wikipedia.org/");' lang="pih">Norfuk / Pitkern</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ce.wikipedia.org/");' lang="ce" title="Noxçiyn">Нохчийн</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://or.wikipedia.org/");' lang="or" title="Oṛiā">ଓଡି଼ଆ</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://om.wikipedia.org/");' lang="om">Afaan Oromoo</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://as.wikipedia.org/");' lang="as" title="Ôxômiya">অসমীযা়</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pap.wikipedia.org/");' lang="pap">Papiamentu</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pcd.wikipedia.org/");' lang="pcd">Picard</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://pnt.wikipedia.org/");' lang="pnt" title="Pontiaká">Ποντιακά</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kaa.wikipedia.org/");' lang="kaa">Qaraqalpaqsha</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://dz.wikipedia.org/");' lang="dz" title="Rdzong-Kha">རྫོང་ཁ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://rmy.wikipedia.org/");' lang="rmy"><span lang="rmy-Latn">Romani</span> / <span lang="rmy-Deva">रोमानी</span></a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sm.wikipedia.org/");' lang="sm">Gagana Sāmoa</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tn.wikipedia.org/");' lang="tn">Setswana</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://sd.wikipedia.org/");' lang="sd" dir="rtl" title="Sindhī">سنڌي</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://cu.wikipedia.org/");' lang="cu" title="Slověnĭskŭ"><span lang="cu-Cyrl">Словѣ́ньскъ</span> / <span lang="cu-Glag">ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ</span></a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://so.wikipedia.org/");' lang="so">Af Soomaali</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ckb.wikipedia.org/");' lang="ckb" dir="rtl" title="Soranî">کوردی</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ss.wikipedia.org/");' lang="ss">SiSwati</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://srn.wikipedia.org/");' lang="srn">Sranantongo</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ty.wikipedia.org/");' lang="ty">Reo Tahiti</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://kab.wikipedia.org/");' lang="kab">Taqbaylit</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tet.wikipedia.org/");' lang="tet">Tetun</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ti.wikipedia.org/");' lang="ti" title="Tigriññā">ትግርኛ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://tpi.wikipedia.org/");' lang="tpi">Tok Pisin</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://chr.wikipedia.org/");' lang="chr" title="Tsalagi">ᏣᎳᎩ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://bug.wikipedia.org/");' lang="bug" title="Basa Ugi">ᨅᨔ ᨕᨙᨁᨗ</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ts.wikipedia.org/");' lang="ts">Xitsonga</a>
+
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://udm.wikipedia.org/");' lang="udm" title="Udmurt">Удмурт</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://fj.wikipedia.org/");' lang="fj">Na Vosa Vaka-Viti</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://ve.wikipedia.org/");' lang="ve">Tshivenḓa</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://xh.wikipedia.org/");' lang="xh">isiXhosa</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zea.wikipedia.org/");' lang="zea">Zeêuws</a>
+<a class="language" href="javascript:void()" onclick='event.stopPropagation();setLanguage("http://zu.wikipedia.org/");' lang="zu">isiZulu</a>
+
