@@ -24,7 +24,7 @@ var symbianOrgBaseUrl = "http://developer.symbian.org";
 var symbianOrgBaseUrlSsl = "https://developer.symbian.org";
 var registrationURL = symbianOrgBaseUrl + "/main/user_profile/register.php";
 var blogFeedName = "Symbian Blog";
-var blogFeedUrl = "http://blog.symbian.org/feed/rss/";
+var blogFeedUrl = "http://blog.symbian.org/feed/";
 
 // FORUM vars and settings 
 var symbianOrgNewThreadUrl = symbianOrgBaseUrl+"/forum/newthread.php?";
@@ -51,7 +51,7 @@ var wikiFeedUrl = symbianOrgBaseUrl+"/wiki/index.php?title=Special:NewPages&feed
 var wikiBaseUrl = symbianOrgBaseUrl+"/wiki/index.php";
 
 // Update variables
-var myversion = "1.0rc16";
+var myversion = "1.0rc17";
 var versionWikiPageUrl = wikiBaseUrl + "/Symbian.org_WRT_Widget";
 var versionWikiPageString = "Current widget version is [";
 var downloadUrl = symbianOrgBaseUrl + "/wiki/images/c/c5/Symbian.org.wgz";
@@ -380,23 +380,14 @@ function createCaption(caption) {
 }
 
 function setDefaultFontSizeForScreenSize(){
-	// first check if there is a preference present
-    if (window.widget) {
-//		var saved = widget.preferenceForKey("fontsize");
-//		if ( widget.preferenceForKey("fontsize") ) {
-//			setCssBodyFontSize(parseInt(saved));
-//		}
-//		else {
-			// no preference available, check screen size
-			if (window.screen.width > 400 || window.screen.height > 400) {
-				// hi res screen, use large font
-				setLargeView();
-			}
-			else {
-				// lo res screen, use small font
-				setSmallView();
-			}
-//		}
+	// no preference available, check screen size
+	if (window.innerWidth > 400 || window.innerHeight > 400) {
+		// hi res screen, use large font
+		setLargeView();
+	}
+	else {
+		// lo res screen, use small font
+		setSmallView();
 	}
 }
 
